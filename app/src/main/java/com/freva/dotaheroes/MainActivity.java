@@ -12,6 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             heroes.add(new Hero(heroRaw.get("name"), iconResourceId));
         }
 
+        Collections.sort(heroes, (o1, o2) -> o1.getName().compareTo(o2.getName()));
         return heroes;
     }
 }
