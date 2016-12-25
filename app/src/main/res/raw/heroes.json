@@ -1,0 +1,454 @@
+[
+   {
+      "name": "Earthshaker",
+      "icon": "icon_hero_earthshaker"
+   },
+   {
+      "name": "Sven",
+      "icon": "icon_hero_sven"
+   },
+   {
+      "name": "Tiny",
+      "icon": "icon_hero_tiny"
+   },
+   {
+      "name": "Kunkka",
+      "icon": "icon_hero_kunkka"
+   },
+   {
+      "name": "Beastmaster",
+      "icon": "icon_hero_beastmaster"
+   },
+   {
+      "name": "Dragon Knight",
+      "icon": "icon_hero_dragon_knight"
+   },
+   {
+      "name": "Clockwork",
+      "icon": "icon_hero_rattletrap"
+   },
+   {
+      "name": "Omniknight",
+      "icon": "icon_hero_omniknight"
+   },
+   {
+      "name": "Huskar",
+      "icon": "icon_hero_huskar"
+   },
+   {
+      "name": "Alchemist",
+      "icon": "icon_hero_alchemist"
+   },
+   {
+      "name": "Brewmaster",
+      "icon": "icon_hero_brewmaster"
+   },
+   {
+      "name": "Treant",
+      "icon": "icon_hero_treant"
+   },
+   {
+      "name": "Wisp",
+      "icon": "icon_hero_wisp"
+   },
+   {
+      "name": "Centaur",
+      "icon": "icon_hero_centaur"
+   },
+   {
+      "name": "Timbersaw",
+      "icon": "icon_hero_shredder"
+   },
+   {
+      "name": "Bristleback",
+      "icon": "icon_hero_bristleback"
+   },
+   {
+      "name": "Tusk",
+      "icon": "icon_hero_tusk"
+   },
+   {
+      "name": "Elder Titan",
+      "icon": "icon_hero_elder_titan"
+   },
+   {
+      "name": "Legion Commander",
+      "icon": "icon_hero_legion_commander"
+   },
+   {
+      "name": "Earth Spirit",
+      "icon": "icon_hero_earth_spirit"
+   },
+   {
+      "name": "Phoenix",
+      "icon": "icon_hero_phoenix"
+   },
+   {
+      "name": "Anti Mage",
+      "icon": "icon_hero_antimage"
+   },
+   {
+      "name": "Drow Ranger",
+      "icon": "icon_hero_drow_ranger"
+   },
+   {
+      "name": "Juggernaut",
+      "icon": "icon_hero_juggernaut"
+   },
+   {
+      "name": "Mirana",
+      "icon": "icon_hero_mirana"
+   },
+   {
+      "name": "Morphling",
+      "icon": "icon_hero_morphling"
+   },
+   {
+      "name": "Phantom Lancer",
+      "icon": "icon_hero_phantom_lancer"
+   },
+   {
+      "name": "Vengeful Spirit",
+      "icon": "icon_hero_vengefulspirit"
+   },
+   {
+      "name": "Riki",
+      "icon": "icon_hero_riki"
+   },
+   {
+      "name": "Sniper",
+      "icon": "icon_hero_sniper"
+   },
+   {
+      "name": "Templar Assassin",
+      "icon": "icon_hero_templar_assassin"
+   },
+   {
+      "name": "Luna",
+      "icon": "icon_hero_luna"
+   },
+   {
+      "name": "Bounty Hunter",
+      "icon": "icon_hero_bounty_hunter"
+   },
+   {
+      "name": "Ursa",
+      "icon": "icon_hero_ursa"
+   },
+   {
+      "name": "Gyrocopter",
+      "icon": "icon_hero_gyrocopter"
+   },
+   {
+      "name": "Lone Druid",
+      "icon": "icon_hero_lone_druid"
+   },
+   {
+      "name": "Naga Siren",
+      "icon": "icon_hero_naga_siren"
+   },
+   {
+      "name": "Troll Warlord",
+      "icon": "icon_hero_troll_warlord"
+   },
+   {
+      "name": "Ember Spirit",
+      "icon": "icon_hero_ember_spirit"
+   },
+   {
+      "name": "Monkey King",
+      "icon": "icon_hero_monkey_king"
+   },
+   {
+      "name": "Crystal Maiden",
+      "icon": "icon_hero_crystal_maiden"
+   },
+   {
+      "name": "Puck",
+      "icon": "icon_hero_puck"
+   },
+   {
+      "name": "Storm Spirit",
+      "icon": "icon_hero_storm_spirit"
+   },
+   {
+      "name": "Windrunner",
+      "icon": "icon_hero_windrunner"
+   },
+   {
+      "name": "Zeus",
+      "icon": "icon_hero_zuus"
+   },
+   {
+      "name": "Lina",
+      "icon": "icon_hero_lina"
+   },
+   {
+      "name": "Shadow Shaman",
+      "icon": "icon_hero_shadow_shaman"
+   },
+   {
+      "name": "Tinker",
+      "icon": "icon_hero_tinker"
+   },
+   {
+      "name": "Nature's Prophet",
+      "icon": "icon_hero_furion"
+   },
+   {
+      "name": "Enchantress",
+      "icon": "icon_hero_enchantress"
+   },
+   {
+      "name": "Jakiro",
+      "icon": "icon_hero_jakiro"
+   },
+   {
+      "name": "Chen",
+      "icon": "icon_hero_chen"
+   },
+   {
+      "name": "Silencer",
+      "icon": "icon_hero_silencer"
+   },
+   {
+      "name": "Ogre Magi",
+      "icon": "icon_hero_ogre_magi"
+   },
+   {
+      "name": "Rubick",
+      "icon": "icon_hero_rubick"
+   },
+   {
+      "name": "Disruptor",
+      "icon": "icon_hero_disruptor"
+   },
+   {
+      "name": "Keeper of the Light",
+      "icon": "icon_hero_keeper_of_the_light"
+   },
+   {
+      "name": "Skywrath Mage",
+      "icon": "icon_hero_skywrath_mage"
+   },
+   {
+      "name": "Oracle",
+      "icon": "icon_hero_oracle"
+   },
+   {
+      "name": "Techies",
+      "icon": "icon_hero_techies"
+   },
+   {
+      "name": "Axe",
+      "icon": "icon_hero_axe"
+   },
+   {
+      "name": "Pudge",
+      "icon": "icon_hero_pudge"
+   },
+   {
+      "name": "Sand King",
+      "icon": "icon_hero_sand_king"
+   },
+   {
+      "name": "Slardar",
+      "icon": "icon_hero_slardar"
+   },
+   {
+      "name": "Tidehunter",
+      "icon": "icon_hero_tidehunter"
+   },
+   {
+      "name": "Skeleton King",
+      "icon": "icon_hero_skeleton_king"
+   },
+   {
+      "name": "Life Stealer",
+      "icon": "icon_hero_life_stealer"
+   },
+   {
+      "name": "Night Stalker",
+      "icon": "icon_hero_night_stalker"
+   },
+   {
+      "name": "Doom Bringer",
+      "icon": "icon_hero_doom_bringer"
+   },
+   {
+      "name": "Spirit Breaker",
+      "icon": "icon_hero_spirit_breaker"
+   },
+   {
+      "name": "Lycan",
+      "icon": "icon_hero_lycan"
+   },
+   {
+      "name": "Chaos Knight",
+      "icon": "icon_hero_chaos_knight"
+   },
+   {
+      "name": "Undying",
+      "icon": "icon_hero_undying"
+   },
+   {
+      "name": "Magnus",
+      "icon": "icon_hero_magnataur"
+   },
+   {
+      "name": "Abaddon",
+      "icon": "icon_hero_abaddon"
+   },
+   {
+      "name": "Abyssal Underlord",
+      "icon": "icon_hero_abyssal_underlord"
+   },
+   {
+      "name": "Bloodseeker",
+      "icon": "icon_hero_bloodseeker"
+   },
+   {
+      "name": "Shadow Fiend",
+      "icon": "icon_hero_nevermore"
+   },
+   {
+      "name": "Razor",
+      "icon": "icon_hero_razor"
+   },
+   {
+      "name": "Venomancer",
+      "icon": "icon_hero_venomancer"
+   },
+   {
+      "name": "Faceless Void",
+      "icon": "icon_hero_faceless_void"
+   },
+   {
+      "name": "Phantom Assassin",
+      "icon": "icon_hero_phantom_assassin"
+   },
+   {
+      "name": "Viper",
+      "icon": "icon_hero_viper"
+   },
+   {
+      "name": "Clinkz",
+      "icon": "icon_hero_clinkz"
+   },
+   {
+      "name": "Broodmother",
+      "icon": "icon_hero_broodmother"
+   },
+   {
+      "name": "Weaver",
+      "icon": "icon_hero_weaver"
+   },
+   {
+      "name": "Spectre",
+      "icon": "icon_hero_spectre"
+   },
+   {
+      "name": "Meepo",
+      "icon": "icon_hero_meepo"
+   },
+   {
+      "name": "Nyx Assassin",
+      "icon": "icon_hero_nyx_assassin"
+   },
+   {
+      "name": "Slark",
+      "icon": "icon_hero_slark"
+   },
+   {
+      "name": "Medusa",
+      "icon": "icon_hero_medusa"
+   },
+   {
+      "name": "Terrorblade",
+      "icon": "icon_hero_terrorblade"
+   },
+   {
+      "name": "Arc Warden",
+      "icon": "icon_hero_arc_warden"
+   },
+   {
+      "name": "Bane",
+      "icon": "icon_hero_bane"
+   },
+   {
+      "name": "Lich",
+      "icon": "icon_hero_lich"
+   },
+   {
+      "name": "Lion",
+      "icon": "icon_hero_lion"
+   },
+   {
+      "name": "Witch Doctor",
+      "icon": "icon_hero_witch_doctor"
+   },
+   {
+      "name": "Enigma",
+      "icon": "icon_hero_enigma"
+   },
+   {
+      "name": "Necrophos",
+      "icon": "icon_hero_necrolyte"
+   },
+   {
+      "name": "Warlock",
+      "icon": "icon_hero_warlock"
+   },
+   {
+      "name": "Queen of Pain",
+      "icon": "icon_hero_queenofpain"
+   },
+   {
+      "name": "Death Prophet",
+      "icon": "icon_hero_death_prophet"
+   },
+   {
+      "name": "Pugna",
+      "icon": "icon_hero_pugna"
+   },
+   {
+      "name": "Dazzle",
+      "icon": "icon_hero_dazzle"
+   },
+   {
+      "name": "Leshrac",
+      "icon": "icon_hero_leshrac"
+   },
+   {
+      "name": "Dark Seer",
+      "icon": "icon_hero_dark_seer"
+   },
+   {
+      "name": "Batrider",
+      "icon": "icon_hero_batrider"
+   },
+   {
+      "name": "Ancient Apparition",
+      "icon": "icon_hero_ancient_apparition"
+   },
+   {
+      "name": "Invoker",
+      "icon": "icon_hero_invoker"
+   },
+   {
+      "name": "Obsidian Destroyer",
+      "icon": "icon_hero_obsidian_destroyer"
+   },
+   {
+      "name": "Shadow Demon",
+      "icon": "icon_hero_shadow_demon"
+   },
+   {
+      "name": "Visage",
+      "icon": "icon_hero_visage"
+   },
+   {
+      "name": "Winter Wyvern",
+      "icon": "icon_hero_winter_wyvern"
+   }
+]
