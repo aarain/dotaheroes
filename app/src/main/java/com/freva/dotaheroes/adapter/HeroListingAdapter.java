@@ -15,6 +15,7 @@ import com.freva.dotaheroes.container.Hero;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class HeroListingAdapter extends ArrayAdapter<Hero> {
     private List<Hero> originalHeroList, filteredHeroList;
@@ -79,8 +80,16 @@ public class HeroListingAdapter extends ArrayAdapter<Hero> {
         protected FilterResults performFiltering(CharSequence constraint) {
             FilterResults results = new FilterResults();
             List<Hero> filteredHeroList = new ArrayList<>();
+
+            String subStr = constraint.toString();
+            // Set anchor points at the beginning of each space-separated string in the hero
+            // name, and ignore case.
+            Pattern filter = Pattern.compile("\\b" + Pattern.quote(subStr), Pattern.CASE_INSENSITIVE);
+
             for (Hero hero : originalHeroList) {
-                if (hero.getName().contains(constraint.toString())) {
+                String heroName = hero.getName();
+
+                if (filter.matcher(heroName).find()) {
                     filteredHeroList.add(hero);
                 }
             }
