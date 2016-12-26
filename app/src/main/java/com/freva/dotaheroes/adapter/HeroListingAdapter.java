@@ -6,21 +6,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Filter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.freva.dotaheroes.R;
 import com.freva.dotaheroes.container.Hero;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HeroListingAdapter extends ArrayAdapter<Hero> {
-    private List<Hero> originalHeroList;
+    private List<Hero> originalHeroList, filteredHeroList;
+    private Filter heroFilter;
 
     public HeroListingAdapter(Context context, List<Hero> heroList) {
         super(context, 0, heroList);
 
-        originalHeroList = heroList;
+        originalHeroList = filteredHeroList = heroList;
     }
 
     @NonNull
@@ -50,12 +53,12 @@ public class HeroListingAdapter extends ArrayAdapter<Hero> {
 
     @Override
     public int getCount() {
-        return originalHeroList.size();
+        return filteredHeroList.size();
     }
 
     @Override
     public Hero getItem(int position) {
-        return originalHeroList.get(position);
+        return filteredHeroList.get(position);
     }
 
     @Override
@@ -63,6 +66,36 @@ public class HeroListingAdapter extends ArrayAdapter<Hero> {
         return position;
     }
 
+    @Override
+    public Filter getFilter() {
+        if (heroFilter == null)
+            heroFilter = new HeroFilter();
+
+        return heroFilter;
+    }
+
+    private class HeroFilter extends Filter {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            FilterResults results = new FilterResults();
+            List<Hero> filteredHeroList = new ArrayList<>();
+            for (Hero hero : originalHeroList) {
+                if (hero.getName().contains(constraint.toString())) {
+                    filteredHeroList.add(hero);
+                }
+            }
+
+            results.values = filteredHeroList;
+            results.count = filteredHeroList.size();
+            return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            filteredHeroList = (List<Hero>) results.values;
+            notifyDataSetChanged();
+        }
+    }
 
     private static class ViewHolder {
         private TextView name;
