@@ -80,16 +80,16 @@ public class HeroListingAdapter extends ArrayAdapter<Hero> {
         protected FilterResults performFiltering(CharSequence constraint) {
             FilterResults results = new FilterResults();
             List<Hero> filteredHeroList = new ArrayList<>();
-            for (Hero hero : originalHeroList) {
-                String heroName = new String(hero.getName());
-                String subStr = new String(constraint.toString());
-                // Set anchor points at the beginning of each space-separated string in the hero
-                // name, and ignore case.
-                Boolean subStrInName = new Boolean( Pattern.compile(
-                        "\\b" + Pattern.quote(subStr),
-                        Pattern.CASE_INSENSITIVE).matcher(heroName).find() );
 
-                if (subStrInName) {
+            String subStr = constraint.toString();
+            // Set anchor points at the beginning of each space-separated string in the hero
+            // name, and ignore case.
+            Pattern filter = Pattern.compile("\\b" + Pattern.quote(subStr), Pattern.CASE_INSENSITIVE);
+
+            for (Hero hero : originalHeroList) {
+                String heroName = hero.getName();
+
+                if (filter.matcher(heroName).find()) {
                     filteredHeroList.add(hero);
                 }
             }
