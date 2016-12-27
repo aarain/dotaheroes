@@ -1,454 +1,2772 @@
-[
-   {
-      "name": "Earthshaker",
-      "icon": "icon_hero_earthshaker"
-   },
-   {
-      "name": "Sven",
-      "icon": "icon_hero_sven"
-   },
-   {
-      "name": "Tiny",
-      "icon": "icon_hero_tiny"
-   },
-   {
-      "name": "Kunkka",
-      "icon": "icon_hero_kunkka"
-   },
-   {
-      "name": "Beastmaster",
-      "icon": "icon_hero_beastmaster"
-   },
-   {
-      "name": "Dragon Knight",
-      "icon": "icon_hero_dragon_knight"
-   },
-   {
-      "name": "Clockwork",
-      "icon": "icon_hero_rattletrap"
-   },
-   {
-      "name": "Omniknight",
-      "icon": "icon_hero_omniknight"
-   },
-   {
-      "name": "Huskar",
-      "icon": "icon_hero_huskar"
-   },
-   {
-      "name": "Alchemist",
-      "icon": "icon_hero_alchemist"
-   },
-   {
-      "name": "Brewmaster",
-      "icon": "icon_hero_brewmaster"
-   },
-   {
-      "name": "Treant",
-      "icon": "icon_hero_treant"
-   },
-   {
-      "name": "Wisp",
-      "icon": "icon_hero_wisp"
-   },
-   {
-      "name": "Centaur",
-      "icon": "icon_hero_centaur"
-   },
-   {
-      "name": "Timbersaw",
-      "icon": "icon_hero_shredder"
-   },
-   {
-      "name": "Bristleback",
-      "icon": "icon_hero_bristleback"
-   },
-   {
-      "name": "Tusk",
-      "icon": "icon_hero_tusk"
-   },
-   {
-      "name": "Elder Titan",
-      "icon": "icon_hero_elder_titan"
-   },
-   {
-      "name": "Legion Commander",
-      "icon": "icon_hero_legion_commander"
-   },
-   {
-      "name": "Earth Spirit",
-      "icon": "icon_hero_earth_spirit"
-   },
-   {
-      "name": "Phoenix",
-      "icon": "icon_hero_phoenix"
-   },
-   {
-      "name": "Anti Mage",
-      "icon": "icon_hero_antimage"
-   },
-   {
-      "name": "Drow Ranger",
-      "icon": "icon_hero_drow_ranger"
-   },
-   {
-      "name": "Juggernaut",
-      "icon": "icon_hero_juggernaut"
-   },
-   {
-      "name": "Mirana",
-      "icon": "icon_hero_mirana"
-   },
-   {
-      "name": "Morphling",
-      "icon": "icon_hero_morphling"
-   },
-   {
-      "name": "Phantom Lancer",
-      "icon": "icon_hero_phantom_lancer"
-   },
-   {
-      "name": "Vengeful Spirit",
-      "icon": "icon_hero_vengefulspirit"
-   },
-   {
-      "name": "Riki",
-      "icon": "icon_hero_riki"
-   },
-   {
-      "name": "Sniper",
-      "icon": "icon_hero_sniper"
-   },
-   {
-      "name": "Templar Assassin",
-      "icon": "icon_hero_templar_assassin"
-   },
-   {
-      "name": "Luna",
-      "icon": "icon_hero_luna"
-   },
-   {
-      "name": "Bounty Hunter",
-      "icon": "icon_hero_bounty_hunter"
-   },
-   {
-      "name": "Ursa",
-      "icon": "icon_hero_ursa"
-   },
-   {
-      "name": "Gyrocopter",
-      "icon": "icon_hero_gyrocopter"
-   },
-   {
-      "name": "Lone Druid",
-      "icon": "icon_hero_lone_druid"
-   },
-   {
-      "name": "Naga Siren",
-      "icon": "icon_hero_naga_siren"
-   },
-   {
-      "name": "Troll Warlord",
-      "icon": "icon_hero_troll_warlord"
-   },
-   {
-      "name": "Ember Spirit",
-      "icon": "icon_hero_ember_spirit"
-   },
-   {
-      "name": "Monkey King",
-      "icon": "icon_hero_monkey_king"
-   },
-   {
-      "name": "Crystal Maiden",
-      "icon": "icon_hero_crystal_maiden"
-   },
-   {
-      "name": "Puck",
-      "icon": "icon_hero_puck"
-   },
-   {
-      "name": "Storm Spirit",
-      "icon": "icon_hero_storm_spirit"
-   },
-   {
-      "name": "Windrunner",
-      "icon": "icon_hero_windrunner"
-   },
-   {
-      "name": "Zeus",
-      "icon": "icon_hero_zuus"
-   },
-   {
-      "name": "Lina",
-      "icon": "icon_hero_lina"
-   },
-   {
-      "name": "Shadow Shaman",
-      "icon": "icon_hero_shadow_shaman"
-   },
-   {
-      "name": "Tinker",
-      "icon": "icon_hero_tinker"
-   },
-   {
-      "name": "Nature's Prophet",
-      "icon": "icon_hero_furion"
-   },
-   {
-      "name": "Enchantress",
-      "icon": "icon_hero_enchantress"
-   },
-   {
-      "name": "Jakiro",
-      "icon": "icon_hero_jakiro"
-   },
-   {
-      "name": "Chen",
-      "icon": "icon_hero_chen"
-   },
-   {
-      "name": "Silencer",
-      "icon": "icon_hero_silencer"
-   },
-   {
-      "name": "Ogre Magi",
-      "icon": "icon_hero_ogre_magi"
-   },
-   {
-      "name": "Rubick",
-      "icon": "icon_hero_rubick"
-   },
-   {
-      "name": "Disruptor",
-      "icon": "icon_hero_disruptor"
-   },
-   {
-      "name": "Keeper of the Light",
-      "icon": "icon_hero_keeper_of_the_light"
-   },
-   {
-      "name": "Skywrath Mage",
-      "icon": "icon_hero_skywrath_mage"
-   },
-   {
-      "name": "Oracle",
-      "icon": "icon_hero_oracle"
-   },
-   {
-      "name": "Techies",
-      "icon": "icon_hero_techies"
-   },
-   {
-      "name": "Axe",
-      "icon": "icon_hero_axe"
-   },
-   {
-      "name": "Pudge",
-      "icon": "icon_hero_pudge"
-   },
-   {
-      "name": "Sand King",
-      "icon": "icon_hero_sand_king"
-   },
-   {
-      "name": "Slardar",
-      "icon": "icon_hero_slardar"
-   },
-   {
-      "name": "Tidehunter",
-      "icon": "icon_hero_tidehunter"
-   },
-   {
-      "name": "Skeleton King",
-      "icon": "icon_hero_skeleton_king"
-   },
-   {
-      "name": "Life Stealer",
-      "icon": "icon_hero_life_stealer"
-   },
-   {
-      "name": "Night Stalker",
-      "icon": "icon_hero_night_stalker"
-   },
-   {
-      "name": "Doom Bringer",
-      "icon": "icon_hero_doom_bringer"
-   },
-   {
-      "name": "Spirit Breaker",
-      "icon": "icon_hero_spirit_breaker"
-   },
-   {
-      "name": "Lycan",
-      "icon": "icon_hero_lycan"
-   },
-   {
-      "name": "Chaos Knight",
-      "icon": "icon_hero_chaos_knight"
-   },
-   {
-      "name": "Undying",
-      "icon": "icon_hero_undying"
-   },
-   {
-      "name": "Magnus",
-      "icon": "icon_hero_magnataur"
-   },
-   {
-      "name": "Abaddon",
-      "icon": "icon_hero_abaddon"
-   },
-   {
-      "name": "Abyssal Underlord",
-      "icon": "icon_hero_abyssal_underlord"
-   },
-   {
-      "name": "Bloodseeker",
-      "icon": "icon_hero_bloodseeker"
-   },
-   {
-      "name": "Shadow Fiend",
-      "icon": "icon_hero_nevermore"
-   },
-   {
-      "name": "Razor",
-      "icon": "icon_hero_razor"
-   },
-   {
-      "name": "Venomancer",
-      "icon": "icon_hero_venomancer"
-   },
-   {
-      "name": "Faceless Void",
-      "icon": "icon_hero_faceless_void"
-   },
-   {
-      "name": "Phantom Assassin",
-      "icon": "icon_hero_phantom_assassin"
-   },
-   {
-      "name": "Viper",
-      "icon": "icon_hero_viper"
-   },
-   {
-      "name": "Clinkz",
-      "icon": "icon_hero_clinkz"
-   },
-   {
-      "name": "Broodmother",
-      "icon": "icon_hero_broodmother"
-   },
-   {
-      "name": "Weaver",
-      "icon": "icon_hero_weaver"
-   },
-   {
-      "name": "Spectre",
-      "icon": "icon_hero_spectre"
-   },
-   {
-      "name": "Meepo",
-      "icon": "icon_hero_meepo"
-   },
-   {
-      "name": "Nyx Assassin",
-      "icon": "icon_hero_nyx_assassin"
-   },
-   {
-      "name": "Slark",
-      "icon": "icon_hero_slark"
-   },
-   {
-      "name": "Medusa",
-      "icon": "icon_hero_medusa"
-   },
-   {
-      "name": "Terrorblade",
-      "icon": "icon_hero_terrorblade"
-   },
-   {
-      "name": "Arc Warden",
-      "icon": "icon_hero_arc_warden"
-   },
-   {
-      "name": "Bane",
-      "icon": "icon_hero_bane"
-   },
-   {
-      "name": "Lich",
-      "icon": "icon_hero_lich"
-   },
-   {
-      "name": "Lion",
-      "icon": "icon_hero_lion"
-   },
-   {
-      "name": "Witch Doctor",
-      "icon": "icon_hero_witch_doctor"
-   },
-   {
-      "name": "Enigma",
-      "icon": "icon_hero_enigma"
-   },
-   {
-      "name": "Necrophos",
-      "icon": "icon_hero_necrolyte"
-   },
-   {
-      "name": "Warlock",
-      "icon": "icon_hero_warlock"
-   },
-   {
-      "name": "Queen of Pain",
-      "icon": "icon_hero_queenofpain"
-   },
-   {
-      "name": "Death Prophet",
-      "icon": "icon_hero_death_prophet"
-   },
-   {
-      "name": "Pugna",
-      "icon": "icon_hero_pugna"
-   },
-   {
-      "name": "Dazzle",
-      "icon": "icon_hero_dazzle"
-   },
-   {
-      "name": "Leshrac",
-      "icon": "icon_hero_leshrac"
-   },
-   {
-      "name": "Dark Seer",
-      "icon": "icon_hero_dark_seer"
-   },
-   {
-      "name": "Batrider",
-      "icon": "icon_hero_batrider"
-   },
-   {
-      "name": "Ancient Apparition",
-      "icon": "icon_hero_ancient_apparition"
-   },
-   {
-      "name": "Invoker",
-      "icon": "icon_hero_invoker"
-   },
-   {
-      "name": "Obsidian Destroyer",
-      "icon": "icon_hero_obsidian_destroyer"
-   },
-   {
-      "name": "Shadow Demon",
-      "icon": "icon_hero_shadow_demon"
-   },
-   {
-      "name": "Visage",
-      "icon": "icon_hero_visage"
-   },
-   {
-      "name": "Winter Wyvern",
-      "icon": "icon_hero_winter_wyvern"
-   }
-]
+{
+    "abaddon": {
+        "abilities": [
+            "mistcoil", 
+            "aphoticshield", 
+            "curseofavernus", 
+            "borrowedtime"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Abaddon", 
+        "roles": [
+            "Support", 
+            "Carry", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "17 + 1.50", 
+            "attack": "32 - 42", 
+            "defense": "1.38", 
+            "int": "21 + 2.00", 
+            "speed": "310", 
+            "str": "23 + 2.70"
+        }
+    }, 
+    "alchemist": {
+        "abilities": [
+            "acidspray", 
+            "unstableconcoction", 
+            "greevilsgreed", 
+            "chemicalrage", 
+            "unstableconcoctionthrow"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Alchemist", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Durable", 
+            "Disabler", 
+            "Initiator", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "11 + 1.20", 
+            "attack": "24 - 33", 
+            "defense": "1.54", 
+            "int": "25 + 1.80", 
+            "speed": "295", 
+            "str": "25 + 1.80"
+        }
+    }, 
+    "ancientapparition": {
+        "abilities": [
+            "coldfeet", 
+            "icevortex", 
+            "chillingtouch", 
+            "iceblast", 
+            "release"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Ancient Apparition", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "20 + 2.20", 
+            "attack": "19 - 29", 
+            "defense": "1.8", 
+            "int": "25 + 2.60", 
+            "speed": "295", 
+            "str": "18 + 1.40"
+        }
+    }, 
+    "antimage": {
+        "abilities": [
+            "manabreak", 
+            "blink", 
+            "spellshield", 
+            "manavoid"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Anti-Mage", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "22 + 2.80", 
+            "attack": "27 - 31", 
+            "defense": "2.08", 
+            "int": "15 + 1.80", 
+            "speed": "315", 
+            "str": "22 + 1.20"
+        }
+    }, 
+    "arcwarden": {
+        "abilities": [
+            "flux", 
+            "magneticfield", 
+            "sparkwraith", 
+            "tempestdouble"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Arc Warden", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "15 + 1.80", 
+            "attack": "29 - 39", 
+            "defense": "0.1", 
+            "int": "24 + 2.60", 
+            "speed": "285", 
+            "str": "24 + 2.30"
+        }
+    }, 
+    "axe": {
+        "abilities": [
+            "berserkerscall", 
+            "battlehunger", 
+            "counterhelix", 
+            "cullingblade"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Axe", 
+        "roles": [
+            "Initiator", 
+            "Durable", 
+            "Disabler", 
+            "Jungler"
+        ], 
+        "stats": {
+            "agi": "20 + 2.20", 
+            "attack": "24 - 28", 
+            "defense": "1.8", 
+            "int": "18 + 1.60", 
+            "speed": "290", 
+            "str": "25 + 2.50"
+        }
+    }, 
+    "bane": {
+        "abilities": [
+            "enfeeble", 
+            "brainsap", 
+            "nightmare", 
+            "fiendsgrip", 
+            "nightmareend"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Bane", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "22 + 2.10", 
+            "attack": "33 - 39", 
+            "defense": "4.08", 
+            "int": "22 + 2.10", 
+            "speed": "310", 
+            "str": "22 + 2.10"
+        }
+    }, 
+    "batrider": {
+        "abilities": [
+            "stickynapalm", 
+            "flamebreak", 
+            "firefly", 
+            "flaminglasso"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Batrider", 
+        "roles": [
+            "Initiator", 
+            "Jungler", 
+            "Disabler", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "15 + 1.50", 
+            "attack": "14 - 18", 
+            "defense": "2.1", 
+            "int": "24 + 2.50", 
+            "speed": "290", 
+            "str": "23 + 2.40"
+        }
+    }, 
+    "beastmaster": {
+        "abilities": [
+            "wildaxes", 
+            "callofthewildhawk", 
+            "innerbeast", 
+            "primalroar"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Beastmaster", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "18 + 1.60", 
+            "attack": "41 - 45", 
+            "defense": "4.52", 
+            "int": "16 + 1.90", 
+            "speed": "310", 
+            "str": "23 + 2.20"
+        }
+    }, 
+    "bloodseeker": {
+        "abilities": [
+            "bloodrage", 
+            "bloodrite", 
+            "thirst", 
+            "rupture"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Bloodseeker", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Jungler", 
+            "Nuker", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "24 + 3.00", 
+            "attack": "29 - 35", 
+            "defense": "3.36", 
+            "int": "18 + 1.70", 
+            "speed": "290", 
+            "str": "23 + 2.40"
+        }
+    }, 
+    "bountyhunter": {
+        "abilities": [
+            "shurikentoss", 
+            "jinada", 
+            "shadowwalk", 
+            "track"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Bounty Hunter", 
+        "roles": [
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "21 + 3.00", 
+            "attack": "24 - 38", 
+            "defense": "5.94", 
+            "int": "19 + 2.00", 
+            "speed": "315", 
+            "str": "17 + 1.80"
+        }
+    }, 
+    "brewmaster": {
+        "abilities": [
+            "thunderclap", 
+            "drunkenhaze", 
+            "drunkenbrawler", 
+            "primalsplit"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Brewmaster", 
+        "roles": [
+            "Carry", 
+            "Initiator", 
+            "Durable", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "22 + 1.95", 
+            "attack": "29 - 36", 
+            "defense": "2.08", 
+            "int": "14 + 1.25", 
+            "speed": "300", 
+            "str": "23 + 2.90"
+        }
+    }, 
+    "bristleback": {
+        "abilities": [
+            "viscousnasalgoo", 
+            "quillspray", 
+            "bristleback", 
+            "warpath"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Bristleback", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Initiator", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "17 + 1.80", 
+            "attack": "26 - 36", 
+            "defense": "3.38", 
+            "int": "14 + 2.80", 
+            "speed": "290", 
+            "str": "22 + 2.20"
+        }
+    }, 
+    "broodmother": {
+        "abilities": [
+            "spawnspiderlings", 
+            "spinweb", 
+            "incapacitatingbite", 
+            "insatiablehunger"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Broodmother", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "18 + 2.20", 
+            "attack": "26 - 32", 
+            "defense": "2.52", 
+            "int": "18 + 2.00", 
+            "speed": "295", 
+            "str": "17 + 2.50"
+        }
+    }, 
+    "centaurwarrunner": {
+        "abilities": [
+            "hoofstomp", 
+            "doubleedge", 
+            "return", 
+            "stampede"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Centaur Warrunner", 
+        "roles": [
+            "Durable", 
+            "Initiator", 
+            "Disabler", 
+            "Nuker", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "15 + 1.60", 
+            "attack": "32 - 34", 
+            "defense": "3.1", 
+            "int": "15 + 1.60", 
+            "speed": "300", 
+            "str": "23 + 4.00"
+        }
+    }, 
+    "chaosknight": {
+        "abilities": [
+            "chaosbolt", 
+            "realityrift", 
+            "chaosstrike", 
+            "phantasm"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Chaos Knight", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Durable", 
+            "Pusher", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "14 + 2.10", 
+            "attack": "29 - 59", 
+            "defense": "3.96", 
+            "int": "16 + 1.20", 
+            "speed": "325", 
+            "str": "20 + 2.90"
+        }
+    }, 
+    "chen": {
+        "abilities": [
+            "penitence", 
+            "testoffaith", 
+            "testoffaith", 
+            "holypersuasion", 
+            "handofgod"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Chen", 
+        "roles": [
+            "Support", 
+            "Jungler", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "15 + 2.10", 
+            "attack": "22 - 32", 
+            "defense": "1.1", 
+            "int": "21 + 2.80", 
+            "speed": "300", 
+            "str": "23 + 1.50"
+        }
+    }, 
+    "clinkz": {
+        "abilities": [
+            "strafe", 
+            "searingarrows", 
+            "skeletonwalk", 
+            "deathpact"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Clinkz", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "22 + 3.30", 
+            "attack": "15 - 21", 
+            "defense": "2.08", 
+            "int": "16 + 1.55", 
+            "speed": "300", 
+            "str": "15 + 1.60"
+        }
+    }, 
+    "clockwerk": {
+        "abilities": [
+            "batteryassault", 
+            "powercogs", 
+            "rocketflare", 
+            "hookshot"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Clockwerk", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "13 + 2.30", 
+            "attack": "31 - 33", 
+            "defense": "1.82", 
+            "int": "17 + 1.30", 
+            "speed": "315", 
+            "str": "24 + 2.90"
+        }
+    }, 
+    "crystalmaiden": {
+        "abilities": [
+            "crystalnova", 
+            "frostbite", 
+            "arcaneaura", 
+            "freezingfield"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Crystal Maiden", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker", 
+            "Jungler"
+        ], 
+        "stats": {
+            "agi": "16 + 1.60", 
+            "attack": "19 - 25", 
+            "defense": "1.24", 
+            "int": "16 + 2.90", 
+            "speed": "280", 
+            "str": "16 + 1.70"
+        }
+    }, 
+    "darkseer": {
+        "abilities": [
+            "vacuum", 
+            "ionshell", 
+            "surge", 
+            "wallofreplica"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Dark Seer", 
+        "roles": [
+            "Initiator", 
+            "Jungler", 
+            "Escape", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "12 + 1.20", 
+            "attack": "31 - 37", 
+            "defense": "6.68", 
+            "int": "25 + 2.70", 
+            "speed": "300", 
+            "str": "22 + 2.30"
+        }
+    }, 
+    "dazzle": {
+        "abilities": [
+            "poisontouch", 
+            "shallowgrave", 
+            "shadowwave", 
+            "weave"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Dazzle", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "21 + 1.70", 
+            "attack": "14 - 32", 
+            "defense": "1.94", 
+            "int": "27 + 3.40", 
+            "speed": "305", 
+            "str": "16 + 1.85"
+        }
+    }, 
+    "deathprophet": {
+        "abilities": [
+            "cryptswarm", 
+            "silence", 
+            "spiritsiphon", 
+            "exorcism"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Death Prophet", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "14 + 1.40", 
+            "attack": "24 - 36", 
+            "defense": "2.96", 
+            "int": "23 + 3.00", 
+            "speed": "310", 
+            "str": "17 + 1.90"
+        }
+    }, 
+    "disruptor": {
+        "abilities": [
+            "thunderstrike", 
+            "glimpse", 
+            "kineticfield", 
+            "staticstorm"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Disruptor", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "15 + 1.40", 
+            "attack": "27 - 31", 
+            "defense": "1.1", 
+            "int": "22 + 2.50", 
+            "speed": "300", 
+            "str": "19 + 1.90"
+        }
+    }, 
+    "doom": {
+        "abilities": [
+            "devour", 
+            "scorchedearth", 
+            "infernalblade", 
+            "doom"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Doom", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Initiator", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "11 + 0.90", 
+            "attack": "27 - 43", 
+            "defense": "0.54", 
+            "int": "13 + 2.10", 
+            "speed": "290", 
+            "str": "26 + 3.20"
+        }
+    }, 
+    "dragonknight": {
+        "abilities": [
+            "breathefire", 
+            "dragontail", 
+            "dragonblood", 
+            "elderdragonform"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Dragon Knight", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Durable", 
+            "Disabler", 
+            "Initiator", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "19 + 2.20", 
+            "attack": "31 - 37", 
+            "defense": "3.66", 
+            "int": "15 + 1.70", 
+            "speed": "290", 
+            "str": "19 + 2.80"
+        }
+    }, 
+    "drowranger": {
+        "abilities": [
+            "frostarrows", 
+            "gust", 
+            "precisionaura", 
+            "marksmanship"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Drow Ranger", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "26 + 1.90", 
+            "attack": "14 - 25", 
+            "defense": "0.64", 
+            "int": "15 + 1.40", 
+            "speed": "290", 
+            "str": "17 + 1.60"
+        }
+    }, 
+    "earthshaker": {
+        "abilities": [
+            "fissure", 
+            "enchanttotem", 
+            "aftershock", 
+            "echoslam"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Earthshaker", 
+        "roles": [
+            "Support", 
+            "Initiator", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "12 + 1.40", 
+            "attack": "24 - 34", 
+            "defense": "2.68", 
+            "int": "16 + 1.80", 
+            "speed": "310", 
+            "str": "22 + 2.90"
+        }
+    }, 
+    "earthspirit": {
+        "abilities": [
+            "bouldersmash", 
+            "rollingboulder", 
+            "geomagneticgrip", 
+            "stoneremnant", 
+            "enchantremnant", 
+            "magnetize"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Earth Spirit", 
+        "roles": [
+            "Nuker", 
+            "Escape", 
+            "Disabler", 
+            "Initiator", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "17 + 1.50", 
+            "attack": "25 - 35", 
+            "defense": "3.38", 
+            "int": "18 + 2.10", 
+            "speed": "295", 
+            "str": "21 + 2.90"
+        }
+    }, 
+    "eldertitan": {
+        "abilities": [
+            "echostomp", 
+            "astralspirit", 
+            "naturalorder", 
+            "returnastralspirit", 
+            "earthsplitter"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Elder Titan", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Nuker", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "14 + 1.50", 
+            "attack": "23 - 33", 
+            "defense": "2.96", 
+            "int": "23 + 1.60", 
+            "speed": "315", 
+            "str": "24 + 2.30"
+        }
+    }, 
+    "emberspirit": {
+        "abilities": [
+            "searingchains", 
+            "sleightoffist", 
+            "flameguard", 
+            "activatefireremnant", 
+            "fireremnant"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Ember Spirit", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Nuker", 
+            "Disabler", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "22 + 1.80", 
+            "attack": "30 - 34", 
+            "defense": "1.08", 
+            "int": "20 + 1.80", 
+            "speed": "310", 
+            "str": "19 + 2.00"
+        }
+    }, 
+    "enchantress": {
+        "abilities": [
+            "untouchable", 
+            "enchant", 
+            "naturesattendants", 
+            "impetus"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Enchantress", 
+        "roles": [
+            "Support", 
+            "Jungler", 
+            "Pusher", 
+            "Durable", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "19 + 1.80", 
+            "attack": "31 - 41", 
+            "defense": "0.66", 
+            "int": "19 + 2.80", 
+            "speed": "335", 
+            "str": "16 + 1.00"
+        }
+    }, 
+    "enigma": {
+        "abilities": [
+            "malefice", 
+            "demonicconversion", 
+            "midnightpulse", 
+            "blackhole"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Enigma", 
+        "roles": [
+            "Disabler", 
+            "Jungler", 
+            "Initiator", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "14 + 1.00", 
+            "attack": "22 - 28", 
+            "defense": "3.96", 
+            "int": "20 + 3.40", 
+            "speed": "300", 
+            "str": "17 + 2.10"
+        }
+    }, 
+    "facelessvoid": {
+        "abilities": [
+            "timewalk", 
+            "timedilation", 
+            "timelock", 
+            "chronosphere"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Faceless Void", 
+        "roles": [
+            "Carry", 
+            "Initiator", 
+            "Disabler", 
+            "Escape", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "23 + 2.65", 
+            "attack": "33 - 39", 
+            "defense": "3.22", 
+            "int": "15 + 1.50", 
+            "speed": "300", 
+            "str": "23 + 1.80"
+        }
+    }, 
+    "gyrocopter": {
+        "abilities": [
+            "rocketbarrage", 
+            "homingmissile", 
+            "flakcannon", 
+            "calldown"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Gyrocopter", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "24 + 2.80", 
+            "attack": "13 - 23", 
+            "defense": "4.36", 
+            "int": "19 + 2.10", 
+            "speed": "315", 
+            "str": "18 + 1.80"
+        }
+    }, 
+    "huskar": {
+        "abilities": [
+            "innervitality", 
+            "burningspear", 
+            "berserkersblood", 
+            "lifebreak"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Huskar", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "15 + 1.40", 
+            "attack": "21 - 30", 
+            "defense": "1.1", 
+            "int": "18 + 1.50", 
+            "speed": "300", 
+            "str": "21 + 2.40"
+        }
+    }, 
+    "invoker": {
+        "abilities": [
+            "quas", 
+            "wex", 
+            "exort", 
+            "invoke", 
+            "coldsnap", 
+            "ghostwalk", 
+            "tornado", 
+            "emp", 
+            "alacrity", 
+            "chaosmeteor", 
+            "sunstrike", 
+            "forgespirit", 
+            "icewall", 
+            "deafeningblast"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Invoker", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Disabler", 
+            "Escape", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "14 + 1.90", 
+            "attack": "19 - 25", 
+            "defense": "0.96", 
+            "int": "16 + 4.00", 
+            "speed": "280", 
+            "str": "17 + 1.90"
+        }
+    }, 
+    "io": {
+        "abilities": [
+            "tether", 
+            "breaktether", 
+            "spirits", 
+            "overcharge", 
+            "relocate", 
+            "spiritsin", 
+            "spiritsout"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Io", 
+        "roles": [
+            "Support", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "14 + 1.60", 
+            "attack": "26 - 35", 
+            "defense": "-0.04", 
+            "int": "23 + 1.70", 
+            "speed": "295", 
+            "str": "17 + 1.90"
+        }
+    }, 
+    "jakiro": {
+        "abilities": [
+            "dualbreath", 
+            "icepath", 
+            "liquidfire", 
+            "macropyre"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Jakiro", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Pusher", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "10 + 1.20", 
+            "attack": "25 - 33", 
+            "defense": "2.4", 
+            "int": "28 + 2.80", 
+            "speed": "290", 
+            "str": "25 + 2.30"
+        }
+    }, 
+    "juggernaut": {
+        "abilities": [
+            "bladefury", 
+            "healingward", 
+            "bladedance", 
+            "omnislash"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Juggernaut", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "26 + 2.40", 
+            "attack": "22 - 26", 
+            "defense": "3.64", 
+            "int": "14 + 1.40", 
+            "speed": "305", 
+            "str": "20 + 1.90"
+        }
+    }, 
+    "keeperofthelight": {
+        "abilities": [
+            "illuminate", 
+            "manaleak", 
+            "chakramagic", 
+            "recall", 
+            "blindinglight", 
+            "spiritform", 
+            "releaseilluminate", 
+            "illuminate"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Keeper of the Light", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler", 
+            "Jungler"
+        ], 
+        "stats": {
+            "agi": "15 + 1.60", 
+            "attack": "18 - 32", 
+            "defense": "1.1", 
+            "int": "25 + 2.80", 
+            "speed": "335", 
+            "str": "14 + 1.80"
+        }
+    }, 
+    "kunkka": {
+        "abilities": [
+            "torrent", 
+            "tidebringer", 
+            "xmarksthespot", 
+            "ghostship", 
+            "return"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Kunkka", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Initiator", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "14 + 1.30", 
+            "attack": "26 - 36", 
+            "defense": "3.96", 
+            "int": "18 + 1.50", 
+            "speed": "300", 
+            "str": "24 + 3.00"
+        }
+    }, 
+    "legioncommander": {
+        "abilities": [
+            "overwhelmingodds", 
+            "presstheattack", 
+            "momentofcourage", 
+            "duel"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Legion Commander", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Initiator", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "18 + 1.70", 
+            "attack": "35 - 39", 
+            "defense": "2.52", 
+            "int": "20 + 2.20", 
+            "speed": "320", 
+            "str": "26 + 2.60"
+        }
+    }, 
+    "leshrac": {
+        "abilities": [
+            "splitearth", 
+            "diabolicedict", 
+            "lightningstorm", 
+            "pulsenova"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Leshrac", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Nuker", 
+            "Pusher", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "23 + 1.70", 
+            "attack": "15 - 19", 
+            "defense": "3.22", 
+            "int": "26 + 3.00", 
+            "speed": "325", 
+            "str": "16 + 1.50"
+        }
+    }, 
+    "lich": {
+        "abilities": [
+            "frostblast", 
+            "icearmor", 
+            "sacrifice", 
+            "chainfrost"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Lich", 
+        "roles": [
+            "Support", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "15 + 2.00", 
+            "attack": "24 - 33", 
+            "defense": "1.1", 
+            "int": "18 + 3.25", 
+            "speed": "315", 
+            "str": "18 + 1.55"
+        }
+    }, 
+    "lifestealer": {
+        "abilities": [
+            "rage", 
+            "feast", 
+            "openwounds", 
+            "assimilate", 
+            "eject", 
+            "infest", 
+            "control", 
+            "consume"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Lifestealer", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Jungler", 
+            "Escape", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "18 + 1.90", 
+            "attack": "32 - 42", 
+            "defense": "1.52", 
+            "int": "15 + 1.75", 
+            "speed": "315", 
+            "str": "25 + 3.00"
+        }
+    }, 
+    "lina": {
+        "abilities": [
+            "dragonslave", 
+            "lightstrikearray", 
+            "fierysoul", 
+            "lagunablade"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Lina", 
+        "roles": [
+            "Support", 
+            "Carry", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "16 + 1.50", 
+            "attack": "13 - 31", 
+            "defense": "1.24", 
+            "int": "27 + 3.20", 
+            "speed": "295", 
+            "str": "18 + 1.50"
+        }
+    }, 
+    "lion": {
+        "abilities": [
+            "earthspike", 
+            "hex", 
+            "manadrain", 
+            "fingerofdeath"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Lion", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "15 + 1.50", 
+            "attack": "27 - 33", 
+            "defense": "1.1", 
+            "int": "20 + 3.00", 
+            "speed": "290", 
+            "str": "16 + 1.70"
+        }
+    }, 
+    "lonedruid": {
+        "abilities": [
+            "summonspiritbear", 
+            "rabid", 
+            "savageroar", 
+            "battlecry", 
+            "trueform", 
+            "druidform"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Lone Druid", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Jungler", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "24 + 2.70", 
+            "attack": "22 - 26", 
+            "defense": "3.36", 
+            "int": "13 + 1.40", 
+            "speed": "325", 
+            "str": "17 + 2.10"
+        }
+    }, 
+    "luna": {
+        "abilities": [
+            "lucentbeam", 
+            "moonglaive", 
+            "lunarblessing", 
+            "eclipse"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Luna", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "18 + 3.30", 
+            "attack": "26 - 32", 
+            "defense": "2.52", 
+            "int": "16 + 1.85", 
+            "speed": "335", 
+            "str": "15 + 2.20"
+        }
+    }, 
+    "lycan": {
+        "abilities": [
+            "summonwolves", 
+            "howl", 
+            "feralimpulse", 
+            "shapeshift"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Lycan", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Jungler", 
+            "Durable", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "16 + 1.50", 
+            "attack": "36 - 41", 
+            "defense": "3.24", 
+            "int": "17 + 1.55", 
+            "speed": "305", 
+            "str": "22 + 3.00"
+        }
+    }, 
+    "magnus": {
+        "abilities": [
+            "shockwave", 
+            "empower", 
+            "skewer", 
+            "reversepolarity"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Magnus", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Nuker", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "15 + 2.50", 
+            "attack": "32 - 44", 
+            "defense": "4.1", 
+            "int": "19 + 1.65", 
+            "speed": "315", 
+            "str": "21 + 2.90"
+        }
+    }, 
+    "medusa": {
+        "abilities": [
+            "splitshot", 
+            "mysticsnake", 
+            "manashield", 
+            "stonegaze"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Medusa", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "20 + 2.50", 
+            "attack": "24 - 30", 
+            "defense": "1.8", 
+            "int": "19 + 2.10", 
+            "speed": "290", 
+            "str": "14 + 1.65"
+        }
+    }, 
+    "meepo": {
+        "abilities": [
+            "earthbind", 
+            "poof", 
+            "geostrike", 
+            "dividedwestand"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Meepo", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Nuker", 
+            "Disabler", 
+            "Initiator", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "23 + 2.20", 
+            "attack": "20 - 26", 
+            "defense": "4.22", 
+            "int": "20 + 1.60", 
+            "speed": "315", 
+            "str": "23 + 1.30"
+        }
+    }, 
+    "mirana": {
+        "abilities": [
+            "starstorm", 
+            "sacredarrow", 
+            "leap", 
+            "moonlightshadow"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Mirana", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Escape", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "20 + 3.30", 
+            "attack": "18 - 29", 
+            "defense": "1.8", 
+            "int": "17 + 1.65", 
+            "speed": "300", 
+            "str": "17 + 1.85"
+        }
+    }, 
+    "monkeyking": {
+        "abilities": [
+            "boundlessstrike", 
+            "treedance", 
+            "primalspring", 
+            "jingumastery", 
+            "mischief", 
+            "revertform", 
+            "wukongscommand"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Monkey King", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Disabler", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "22 + 3.20", 
+            "attack": "30 - 36", 
+            "defense": "3.08", 
+            "int": "20 + 1.80", 
+            "speed": "305", 
+            "str": "18 + 2.20"
+        }
+    }, 
+    "morphling": {
+        "abilities": [
+            "waveform", 
+            "adaptivestrike", 
+            "morphagilitygain", 
+            "morphstrengthgain", 
+            "hybrid", 
+            "replicate", 
+            "morphreplicate"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Morphling", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Durable", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "24 + 3.70", 
+            "attack": "9 - 18", 
+            "defense": "1.36", 
+            "int": "17 + 1.10", 
+            "speed": "285", 
+            "str": "19 + 2.00"
+        }
+    }, 
+    "nagasiren": {
+        "abilities": [
+            "mirrorimage", 
+            "ensnare", 
+            "riptide", 
+            "songofthesiren", 
+            "songofthesirenend"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Naga Siren", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Pusher", 
+            "Disabler", 
+            "Initiator", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "21 + 2.75", 
+            "attack": "23 - 25", 
+            "defense": "5.94", 
+            "int": "21 + 2.00", 
+            "speed": "320", 
+            "str": "21 + 2.50"
+        }
+    }, 
+    "naturesprophet": {
+        "abilities": [
+            "sprout", 
+            "teleportation", 
+            "naturescall", 
+            "wrathofnature"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Nature's Prophet", 
+        "roles": [
+            "Carry", 
+            "Jungler", 
+            "Pusher", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "18 + 1.90", 
+            "attack": "24 - 38", 
+            "defense": "3.52", 
+            "int": "25 + 2.90", 
+            "speed": "295", 
+            "str": "19 + 1.80"
+        }
+    }, 
+    "necrophos": {
+        "abilities": [
+            "deathpulse", 
+            "ghostshroud", 
+            "heartstopperaura", 
+            "reapersscythe"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Necrophos", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Durable", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "15 + 1.70", 
+            "attack": "22 - 26", 
+            "defense": "3.1", 
+            "int": "22 + 2.50", 
+            "speed": "290", 
+            "str": "16 + 2.00"
+        }
+    }, 
+    "nightstalker": {
+        "abilities": [
+            "void", 
+            "cripplingfear", 
+            "hunterinthenight", 
+            "darkness"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Night Stalker", 
+        "roles": [
+            "Carry", 
+            "Initiator", 
+            "Durable", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "18 + 2.25", 
+            "attack": "38 - 42", 
+            "defense": "5.52", 
+            "int": "16 + 1.60", 
+            "speed": "295", 
+            "str": "23 + 2.80"
+        }
+    }, 
+    "nyxassassin": {
+        "abilities": [
+            "impale", 
+            "manaburn", 
+            "spikedcarapace", 
+            "burrow", 
+            "unburrow", 
+            "vendetta"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Nyx Assassin", 
+        "roles": [
+            "Disabler", 
+            "Nuker", 
+            "Initiator", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "19 + 2.20", 
+            "attack": "30 - 34", 
+            "defense": "3.66", 
+            "int": "18 + 2.10", 
+            "speed": "305", 
+            "str": "18 + 2.00"
+        }
+    }, 
+    "ogremagi": {
+        "abilities": [
+            "fireblast", 
+            "ignite", 
+            "bloodlust", 
+            "unrefinedfireblast", 
+            "multicast"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Ogre Magi", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler", 
+            "Durable", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "14 + 1.55", 
+            "attack": "41 - 47", 
+            "defense": "7.96", 
+            "int": "17 + 2.40", 
+            "speed": "290", 
+            "str": "23 + 3.20"
+        }
+    }, 
+    "omniknight": {
+        "abilities": [
+            "purification", 
+            "repel", 
+            "degenaura", 
+            "guardianangel"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Omniknight", 
+        "roles": [
+            "Support", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "15 + 1.75", 
+            "attack": "31 - 41", 
+            "defense": "5.1", 
+            "int": "17 + 1.80", 
+            "speed": "305", 
+            "str": "22 + 2.80"
+        }
+    }, 
+    "oracle": {
+        "abilities": [
+            "fortunesend", 
+            "fatesedict", 
+            "purifyingflames", 
+            "falsepromise"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Oracle", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "15 + 1.70", 
+            "attack": "16 - 22", 
+            "defense": "2.1", 
+            "int": "23 + 2.90", 
+            "speed": "305", 
+            "str": "18 + 1.90"
+        }
+    }, 
+    "outworlddevourer": {
+        "abilities": [
+            "arcaneorb", 
+            "astralimprisonment", 
+            "essenceaura", 
+            "sanityseclipse"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Outworld Devourer", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "24 + 2.00", 
+            "attack": "14 - 29", 
+            "defense": "3.86", 
+            "int": "26 + 2.70", 
+            "speed": "315", 
+            "str": "19 + 2.30"
+        }
+    }, 
+    "phantomassassin": {
+        "abilities": [
+            "stiflingdagger", 
+            "phantomstrike", 
+            "blur", 
+            "coupdegrace"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Phantom Assassin", 
+        "roles": [
+            "Carry", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "23 + 3.15", 
+            "attack": "23 - 25", 
+            "defense": "4.22", 
+            "int": "15 + 1.40", 
+            "speed": "310", 
+            "str": "20 + 1.85"
+        }
+    }, 
+    "phantomlancer": {
+        "abilities": [
+            "spiritlance", 
+            "doppelganger", 
+            "phantomrush", 
+            "juxtapose"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Phantom Lancer", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Pusher", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "29 + 2.60", 
+            "attack": "22 - 44", 
+            "defense": "4.06", 
+            "int": "21 + 2.00", 
+            "speed": "290", 
+            "str": "21 + 1.70"
+        }
+    }, 
+    "phoenix": {
+        "abilities": [
+            "icarusdive", 
+            "firespirits", 
+            "sunray", 
+            "supernova", 
+            "launchfirespirit", 
+            "stopicarusdive", 
+            "stopsunray", 
+            "togglemovement"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Phoenix", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Initiator", 
+            "Escape", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "12 + 1.30", 
+            "attack": "26 - 36", 
+            "defense": "-0.32", 
+            "int": "18 + 1.80", 
+            "speed": "285", 
+            "str": "17 + 2.90"
+        }
+    }, 
+    "puck": {
+        "abilities": [
+            "illusoryorb", 
+            "waningrift", 
+            "phaseshift", 
+            "etherealjaunt", 
+            "dreamcoil"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Puck", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "22 + 1.70", 
+            "attack": "22 - 33", 
+            "defense": "2.08", 
+            "int": "25 + 2.40", 
+            "speed": "295", 
+            "str": "15 + 1.70"
+        }
+    }, 
+    "pudge": {
+        "abilities": [
+            "meathook", 
+            "rot", 
+            "fleshheap", 
+            "dismember"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Pudge", 
+        "roles": [
+            "Disabler", 
+            "Initiator", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "14 + 1.50", 
+            "attack": "27 - 33", 
+            "defense": "0.96", 
+            "int": "14 + 1.50", 
+            "speed": "285", 
+            "str": "25 + 3.20"
+        }
+    }, 
+    "pugna": {
+        "abilities": [
+            "netherblast", 
+            "decrepify", 
+            "netherward", 
+            "lifedrain"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Pugna", 
+        "roles": [
+            "Nuker", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "16 + 1.00", 
+            "attack": "19 - 27", 
+            "defense": "1.24", 
+            "int": "26 + 4.50", 
+            "speed": "330", 
+            "str": "17 + 1.20"
+        }
+    }, 
+    "queenofpain": {
+        "abilities": [
+            "shadowstrike", 
+            "blink", 
+            "screamofpain", 
+            "sonicwave"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Queen of Pain", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "18 + 2.00", 
+            "attack": "25 - 33", 
+            "defense": "1.52", 
+            "int": "24 + 2.50", 
+            "speed": "295", 
+            "str": "16 + 1.70"
+        }
+    }, 
+    "razor": {
+        "abilities": [
+            "plasmafield", 
+            "staticlink", 
+            "unstablecurrent", 
+            "eyeofthestorm"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Razor", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Nuker", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "22 + 2.00", 
+            "attack": "23 - 25", 
+            "defense": "2.08", 
+            "int": "19 + 1.80", 
+            "speed": "295", 
+            "str": "21 + 2.30"
+        }
+    }, 
+    "riki": {
+        "abilities": [
+            "smokescreen", 
+            "blinkstrike", 
+            "cloakanddagger", 
+            "tricksofthetrade"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Riki", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "34 + 2.20", 
+            "attack": "4 - 8", 
+            "defense": "4.76", 
+            "int": "14 + 1.30", 
+            "speed": "290", 
+            "str": "17 + 1.60"
+        }
+    }, 
+    "rubick": {
+        "abilities": [
+            "telekinesis", 
+            "telekinesisland", 
+            "fadebolt", 
+            "nullfield", 
+            "spellsteal"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Rubick", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "14 + 1.60", 
+            "attack": "17 - 27", 
+            "defense": "0.96", 
+            "int": "27 + 2.40", 
+            "speed": "290", 
+            "str": "19 + 1.50"
+        }
+    }, 
+    "sandking": {
+        "abilities": [
+            "burrowstrike", 
+            "sandstorm", 
+            "causticfinale", 
+            "epicenter"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Sand King", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Nuker", 
+            "Escape", 
+            "Jungler"
+        ], 
+        "stats": {
+            "agi": "19 + 2.10", 
+            "attack": "25 - 41", 
+            "defense": "2.66", 
+            "int": "16 + 1.80", 
+            "speed": "295", 
+            "str": "22 + 2.60"
+        }
+    }, 
+    "shadowdemon": {
+        "abilities": [
+            "disruption", 
+            "soulcatcher", 
+            "shadowpoison", 
+            "shadowpoisonrelease", 
+            "demonicpurge"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Shadow Demon", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Initiator", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "18 + 2.20", 
+            "attack": "27 - 31", 
+            "defense": "2.52", 
+            "int": "23 + 2.70", 
+            "speed": "295", 
+            "str": "17 + 1.90"
+        }
+    }, 
+    "shadowfiend": {
+        "abilities": [
+            "shadowraze", 
+            "necromastery", 
+            "presenceofthedarklord", 
+            "requiemofsouls"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Shadow Fiend", 
+        "roles": [
+            "Carry", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "20 + 2.90", 
+            "attack": "15 - 21", 
+            "defense": "0.8", 
+            "int": "18 + 2.00", 
+            "speed": "315", 
+            "str": "15 + 2.00"
+        }
+    }, 
+    "shadowshaman": {
+        "abilities": [
+            "ethershock", 
+            "hex", 
+            "shackles", 
+            "massserpentward"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Shadow Shaman", 
+        "roles": [
+            "Support", 
+            "Pusher", 
+            "Disabler", 
+            "Nuker", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "16 + 1.60", 
+            "attack": "26 - 33", 
+            "defense": "1.24", 
+            "int": "21 + 3.00", 
+            "speed": "285", 
+            "str": "21 + 1.80"
+        }
+    }, 
+    "silencer": {
+        "abilities": [
+            "arcanecurse", 
+            "glaivesofwisdom", 
+            "lastword", 
+            "globalsilence"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Silencer", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Disabler", 
+            "Initiator", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "22 + 3.00", 
+            "attack": "16 - 30", 
+            "defense": "2.08", 
+            "int": "27 + 2.50", 
+            "speed": "295", 
+            "str": "17 + 2.20"
+        }
+    }, 
+    "skywrathmage": {
+        "abilities": [
+            "arcanebolt", 
+            "concussiveshot", 
+            "ancientseal", 
+            "mysticflare"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Skywrath Mage", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "13 + 0.80", 
+            "attack": "12 - 22", 
+            "defense": "-0.18", 
+            "int": "27 + 3.60", 
+            "speed": "325", 
+            "str": "19 + 1.50"
+        }
+    }, 
+    "slardar": {
+        "abilities": [
+            "guardiansprint", 
+            "slithereencrush", 
+            "bashofthedeep", 
+            "corrosivehaze"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Slardar", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Initiator", 
+            "Disabler", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "17 + 2.40", 
+            "attack": "30 - 38", 
+            "defense": "5.38", 
+            "int": "15 + 1.50", 
+            "speed": "290", 
+            "str": "21 + 2.80"
+        }
+    }, 
+    "slark": {
+        "abilities": [
+            "darkpact", 
+            "pounce", 
+            "essenceshift", 
+            "shadowdance"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Slark", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "21 + 1.50", 
+            "attack": "33 - 41", 
+            "defense": "1.94", 
+            "int": "16 + 1.90", 
+            "speed": "305", 
+            "str": "20 + 1.60"
+        }
+    }, 
+    "sniper": {
+        "abilities": [
+            "shrapnel", 
+            "headshot", 
+            "takeaim", 
+            "assassinate"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Sniper", 
+        "roles": [
+            "Carry", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "21 + 2.50", 
+            "attack": "15 - 21", 
+            "defense": "1.94", 
+            "int": "15 + 2.60", 
+            "speed": "290", 
+            "str": "16 + 1.70"
+        }
+    }, 
+    "spectre": {
+        "abilities": [
+            "spectraldagger", 
+            "desolate", 
+            "dispersion", 
+            "reality", 
+            "haunt"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Spectre", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "23 + 1.80", 
+            "attack": "23 - 27", 
+            "defense": "3.22", 
+            "int": "16 + 1.90", 
+            "speed": "290", 
+            "str": "19 + 2.00"
+        }
+    }, 
+    "spiritbreaker": {
+        "abilities": [
+            "chargeofdarkness", 
+            "empoweringhaste", 
+            "greaterbash", 
+            "netherstrike"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Spirit Breaker", 
+        "roles": [
+            "Carry", 
+            "Initiator", 
+            "Disabler", 
+            "Durable", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "17 + 1.70", 
+            "attack": "31 - 41", 
+            "defense": "5.38", 
+            "int": "14 + 1.80", 
+            "speed": "290", 
+            "str": "29 + 2.40"
+        }
+    }, 
+    "stormspirit": {
+        "abilities": [
+            "staticremnant", 
+            "electricvortex", 
+            "overload", 
+            "balllightning"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Storm Spirit", 
+        "roles": [
+            "Carry", 
+            "Escape", 
+            "Nuker", 
+            "Initiator", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "22 + 1.80", 
+            "attack": "22 - 32", 
+            "defense": "5.08", 
+            "int": "24 + 3.00", 
+            "speed": "285", 
+            "str": "19 + 1.50"
+        }
+    }, 
+    "sven": {
+        "abilities": [
+            "stormhammer", 
+            "greatcleave", 
+            "warcry", 
+            "godsstrength"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Sven", 
+        "roles": [
+            "Carry", 
+            "Disabler", 
+            "Initiator", 
+            "Durable", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "21 + 2.00", 
+            "attack": "41 - 43", 
+            "defense": "4.94", 
+            "int": "16 + 1.30", 
+            "speed": "290", 
+            "str": "23 + 2.70"
+        }
+    }, 
+    "techies": {
+        "abilities": [
+            "proximitymines", 
+            "stasistrap", 
+            "blastoff", 
+            "focuseddetonate", 
+            "minefieldsign", 
+            "remotemines"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Techies", 
+        "roles": [
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "14 + 1.30", 
+            "attack": "7 - 9", 
+            "defense": "6.96", 
+            "int": "22 + 2.90", 
+            "speed": "270", 
+            "str": "17 + 2.00"
+        }
+    }, 
+    "templarassassin": {
+        "abilities": [
+            "refraction", 
+            "meld", 
+            "psiblades", 
+            "trap", 
+            "psionictrap"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Templar Assassin", 
+        "roles": [
+            "Carry", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "23 + 2.70", 
+            "attack": "30 - 36", 
+            "defense": "4.22", 
+            "int": "20 + 2.00", 
+            "speed": "305", 
+            "str": "18 + 2.10"
+        }
+    }, 
+    "terrorblade": {
+        "abilities": [
+            "reflection", 
+            "conjureimage", 
+            "metamorphosis", 
+            "sunder"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Terrorblade", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "22 + 3.20", 
+            "attack": "26 - 32", 
+            "defense": "10.08", 
+            "int": "19 + 1.75", 
+            "speed": "315", 
+            "str": "15 + 1.40"
+        }
+    }, 
+    "tidehunter": {
+        "abilities": [
+            "gush", 
+            "krakenshell", 
+            "anchorsmash", 
+            "ravage"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Tidehunter", 
+        "roles": [
+            "Initiator", 
+            "Durable", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "15 + 1.50", 
+            "attack": "25 - 31", 
+            "defense": "3.1", 
+            "int": "16 + 1.70", 
+            "speed": "305", 
+            "str": "22 + 3.00"
+        }
+    }, 
+    "timbersaw": {
+        "abilities": [
+            "whirlingdeath", 
+            "timberchain", 
+            "reactivearmor", 
+            "chakram", 
+            "returnchakram", 
+            "chakram", 
+            "returnchakram"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Timbersaw", 
+        "roles": [
+            "Nuker", 
+            "Durable", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "16 + 1.30", 
+            "attack": "26 - 30", 
+            "defense": "0.24", 
+            "int": "21 + 2.40", 
+            "speed": "290", 
+            "str": "21 + 1.80"
+        }
+    }, 
+    "tinker": {
+        "abilities": [
+            "laser", 
+            "heatseekingmissile", 
+            "marchofthemachines", 
+            "rearm"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Tinker", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "13 + 1.20", 
+            "attack": "22 - 28", 
+            "defense": "3.82", 
+            "int": "30 + 2.20", 
+            "speed": "305", 
+            "str": "17 + 2.00"
+        }
+    }, 
+    "tiny": {
+        "abilities": [
+            "avalanche", 
+            "toss", 
+            "craggyexterior", 
+            "grow"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Tiny", 
+        "roles": [
+            "Carry", 
+            "Nuker", 
+            "Pusher", 
+            "Initiator", 
+            "Durable", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "9 + 0.90", 
+            "attack": "37 - 43", 
+            "defense": "0.26", 
+            "int": "17 + 1.60", 
+            "speed": "285", 
+            "str": "26 + 3.00"
+        }
+    }, 
+    "treantprotector": {
+        "abilities": [
+            "naturesguise", 
+            "leechseed", 
+            "livingarmor", 
+            "eyesintheforest", 
+            "overgrowth"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Treant Protector", 
+        "roles": [
+            "Support", 
+            "Initiator", 
+            "Durable", 
+            "Disabler", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "15 + 2.00", 
+            "attack": "62 - 70", 
+            "defense": "1.1", 
+            "int": "17 + 1.80", 
+            "speed": "295", 
+            "str": "25 + 3.30"
+        }
+    }, 
+    "trollwarlord": {
+        "abilities": [
+            "berserkersrage", 
+            "whirlingaxesranged", 
+            "whirlingaxesmelee", 
+            "fervor", 
+            "battletrance"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Troll Warlord", 
+        "roles": [
+            "Carry", 
+            "Pusher", 
+            "Disabler", 
+            "Durable"
+        ], 
+        "stats": {
+            "agi": "21 + 2.75", 
+            "attack": "17 - 35", 
+            "defense": "1.94", 
+            "int": "13 + 1.00", 
+            "speed": "300", 
+            "str": "20 + 2.20"
+        }
+    }, 
+    "tusk": {
+        "abilities": [
+            "iceshards", 
+            "snowball", 
+            "frozensigil", 
+            "launchsnowball", 
+            "walruskick", 
+            "walruspunch"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Tusk", 
+        "roles": [
+            "Initiator", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "23 + 2.10", 
+            "attack": "27 - 31", 
+            "defense": "3.22", 
+            "int": "18 + 1.70", 
+            "speed": "300", 
+            "str": "23 + 2.30"
+        }
+    }, 
+    "underlord": {
+        "abilities": [
+            "firestorm", 
+            "pitofmalice", 
+            "atrophyaura", 
+            "darkrift", 
+            "canceldarkrift"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Underlord", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler", 
+            "Durable", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "12 + 1.30", 
+            "attack": "37 - 43", 
+            "defense": "3.68", 
+            "int": "17 + 2.60", 
+            "speed": "305", 
+            "str": "25 + 2.60"
+        }
+    }, 
+    "undying": {
+        "abilities": [
+            "decay", 
+            "soulrip", 
+            "tombstone", 
+            "fleshgolem"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Undying", 
+        "roles": [
+            "Support", 
+            "Durable", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "10 + 0.80", 
+            "attack": "35 - 43", 
+            "defense": "3.4", 
+            "int": "27 + 2.80", 
+            "speed": "310", 
+            "str": "22 + 2.10"
+        }
+    }, 
+    "ursa": {
+        "abilities": [
+            "earthshock", 
+            "overpower", 
+            "furyswipes", 
+            "enrage"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Ursa", 
+        "roles": [
+            "Carry", 
+            "Jungler", 
+            "Durable", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "18 + 2.10", 
+            "attack": "27 - 31", 
+            "defense": "5.52", 
+            "int": "16 + 1.50", 
+            "speed": "310", 
+            "str": "23 + 2.70"
+        }
+    }, 
+    "vengefulspirit": {
+        "abilities": [
+            "magicmissile", 
+            "waveofterror", 
+            "vengeanceaura", 
+            "netherswap"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Vengeful Spirit", 
+        "roles": [
+            "Support", 
+            "Initiator", 
+            "Disabler", 
+            "Nuker", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "27 + 3.30", 
+            "attack": "12 - 26", 
+            "defense": "3.78", 
+            "int": "13 + 1.50", 
+            "speed": "300", 
+            "str": "18 + 2.60"
+        }
+    }, 
+    "venomancer": {
+        "abilities": [
+            "venomousgale", 
+            "poisonsting", 
+            "plagueward", 
+            "poisonnova"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Venomancer", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Initiator", 
+            "Pusher", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "22 + 2.60", 
+            "attack": "19 - 21", 
+            "defense": "3.08", 
+            "int": "17 + 1.80", 
+            "speed": "285", 
+            "str": "18 + 1.85"
+        }
+    }, 
+    "viper": {
+        "abilities": [
+            "poisonattack", 
+            "nethertoxin", 
+            "corrosiveskin", 
+            "viperstrike"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Viper", 
+        "roles": [
+            "Carry", 
+            "Durable", 
+            "Initiator", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "21 + 2.90", 
+            "attack": "23 - 25", 
+            "defense": "1.94", 
+            "int": "15 + 1.80", 
+            "speed": "285", 
+            "str": "20 + 2.10"
+        }
+    }, 
+    "visage": {
+        "abilities": [
+            "gravechill", 
+            "soulassumption", 
+            "gravekeeperscloak", 
+            "summonfamiliars"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Visage", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Durable", 
+            "Disabler", 
+            "Pusher"
+        ], 
+        "stats": {
+            "agi": "11 + 1.30", 
+            "attack": "21 - 31", 
+            "defense": "-0.46", 
+            "int": "24 + 2.50", 
+            "speed": "285", 
+            "str": "22 + 2.40"
+        }
+    }, 
+    "warlock": {
+        "abilities": [
+            "fatalbonds", 
+            "shadowword", 
+            "upheaval", 
+            "chaoticoffering"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Warlock", 
+        "roles": [
+            "Support", 
+            "Initiator", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "10 + 1.00", 
+            "attack": "22 - 32", 
+            "defense": "2.4", 
+            "int": "24 + 2.70", 
+            "speed": "295", 
+            "str": "22 + 2.50"
+        }
+    }, 
+    "weaver": {
+        "abilities": [
+            "theswarm", 
+            "shukuchi", 
+            "geminateattack", 
+            "timelapse"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Weaver", 
+        "roles": [
+            "Carry", 
+            "Escape"
+        ], 
+        "stats": {
+            "agi": "14 + 2.80", 
+            "attack": "41 - 51", 
+            "defense": "0.96", 
+            "int": "15 + 1.80", 
+            "speed": "290", 
+            "str": "15 + 1.50"
+        }
+    }, 
+    "windranger": {
+        "abilities": [
+            "shackleshot", 
+            "powershot", 
+            "windrun", 
+            "focusfire"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Windranger", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Disabler", 
+            "Escape", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "17 + 1.40", 
+            "attack": "22 - 34", 
+            "defense": "1.38", 
+            "int": "22 + 2.60", 
+            "speed": "295", 
+            "str": "15 + 2.50"
+        }
+    }, 
+    "winterwyvern": {
+        "abilities": [
+            "arcticburn", 
+            "splinterblast", 
+            "coldembrace", 
+            "winterscurse"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Winter Wyvern", 
+        "roles": [
+            "Support", 
+            "Disabler", 
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "16 + 1.90", 
+            "attack": "13 - 20", 
+            "defense": "1.24", 
+            "int": "25 + 3.10", 
+            "speed": "285", 
+            "str": "24 + 2.10"
+        }
+    }, 
+    "witchdoctor": {
+        "abilities": [
+            "paralyzingcask", 
+            "voodoorestoration", 
+            "maledict", 
+            "deathward"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Witch Doctor", 
+        "roles": [
+            "Support", 
+            "Nuker", 
+            "Disabler"
+        ], 
+        "stats": {
+            "agi": "13 + 1.40", 
+            "attack": "27 - 37", 
+            "defense": "0.82", 
+            "int": "24 + 2.90", 
+            "speed": "305", 
+            "str": "16 + 1.80"
+        }
+    }, 
+    "wraithking": {
+        "abilities": [
+            "wraithfireblast", 
+            "vampiricaura", 
+            "mortalstrike", 
+            "reincarnation"
+        ], 
+        "attack_type": "Melee", 
+        "name": "Wraith King", 
+        "roles": [
+            "Carry", 
+            "Support", 
+            "Durable", 
+            "Disabler", 
+            "Initiator"
+        ], 
+        "stats": {
+            "agi": "18 + 1.70", 
+            "attack": "39 - 41", 
+            "defense": "2.52", 
+            "int": "18 + 1.60", 
+            "speed": "300", 
+            "str": "22 + 2.90"
+        }
+    }, 
+    "zeus": {
+        "abilities": [
+            "arclightning", 
+            "lightningbolt", 
+            "staticfield", 
+            "nimbus", 
+            "thundergodswrath"
+        ], 
+        "attack_type": "Ranged", 
+        "name": "Zeus", 
+        "roles": [
+            "Nuker"
+        ], 
+        "stats": {
+            "agi": "11 + 1.20", 
+            "attack": "21 - 29", 
+            "defense": "1.54", 
+            "int": "20 + 2.70", 
+            "speed": "295", 
+            "str": "19 + 2.30"
+        }
+    }
+}
