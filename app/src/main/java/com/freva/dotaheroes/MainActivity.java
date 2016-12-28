@@ -1,5 +1,6 @@
 package com.freva.dotaheroes;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
         heroListingAdapter = new HeroListingAdapter(getApplicationContext(), heroes);
         ListView listview = (ListView) findViewById(R.id.heroes_list_view);
         listview.setAdapter(heroListingAdapter);
+        listview.setOnItemClickListener((parent, view, position, id) -> {
+            Hero selectedHero = ((Hero) parent.getItemAtPosition(position));
+            Intent myIntent = new Intent(view.getContext(), HeroDetailsActivity.class);
+            myIntent.putExtra("HERO_ID", selectedHero.getId());
+            startActivityForResult(myIntent, 0);
+        });
 
         EditText heroSearch = (EditText) findViewById(R.id.activity_main_hero_search_input);
         heroSearch.addTextChangedListener(new FilterHeroListener());
