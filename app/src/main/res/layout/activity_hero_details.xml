@@ -1,11 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/test"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/activity_hero_details_image"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hero details" />
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/activity_hero_details_roles"
+            android:layout_width="fill_parent"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/activity_hero_details_type"
+            android:layout_width="fill_parent"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/heroStatsTextView"
+                android:id="@+id/activity_hero_details_str"
+                android:layout_gravity="left"
+                android:drawableLeft="@drawable/icon_stats_str"/>
+
+            <TextView
+                style="@style/heroStatsTextView"
+                android:id="@+id/activity_hero_details_att"
+                android:layout_gravity="right"
+                android:drawableLeft="@drawable/icon_stats_att"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/heroStatsTextView"
+                android:id="@+id/activity_hero_details_agi"
+                android:layout_gravity="left"
+                android:drawableLeft="@drawable/icon_stats_agi"/>
+
+            <TextView
+                style="@style/heroStatsTextView"
+                android:id="@+id/activity_hero_details_def"
+                android:layout_gravity="right"
+                android:drawableLeft="@drawable/icon_stats_def"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/heroStatsTextView"
+                android:id="@+id/activity_hero_details_int"
+                android:layout_gravity="left"
+                android:drawableLeft="@drawable/icon_stats_int"/>
+
+            <TextView
+                style="@style/heroStatsTextView"
+                android:id="@+id/activity_hero_details_spd"
+                android:layout_gravity="right"
+                android:drawableLeft="@drawable/icon_stats_spd"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

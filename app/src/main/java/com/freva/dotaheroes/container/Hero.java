@@ -27,7 +27,7 @@ public class Hero {
         this.intelligence = stats.get("int");
         this.strength = stats.get("str");
         this.damage = stats.get("attack");
-        this.armor = stats.get("defence");
+        this.armor = stats.get("defense");
         this.speed = stats.get("speed");
 
         for (String role : roles) this.roles.add(Role.valueOf(role.toUpperCase()));
