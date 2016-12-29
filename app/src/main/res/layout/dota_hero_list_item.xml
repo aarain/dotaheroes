@@ -7,7 +7,7 @@
         android:id="@+id/hero_list_item_icon"
         android:layout_width="43dp"
         android:layout_height="24dp"
-        android:layout_margin="2dp" />
+        android:layout_margin="2dp"/>
 
     <TextView
         android:id="@+id/hero_list_item_name_text"

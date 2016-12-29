@@ -37,10 +37,9 @@ public class HeroDetailsActivity extends AppCompatActivity {
         TextView textViewRoles = (TextView) findViewById(R.id.activity_hero_details_roles);
         textViewRoles.setText(TextUtils.join(" - ", roles));
 
-        // Set hero strength start and gain
-        String attackType = selectedHero.getAttackType().toString();
+        // Set hero attack type
         TextView attackTypeText = (TextView) findViewById(R.id.activity_hero_details_type);
-        attackTypeText.setText(attackType);
+        attackTypeText.setText(selectedHero.getAttackType().toString());
 
         // Set hero strength start and gain
         TextView strengthText = (TextView) findViewById(R.id.activity_hero_details_str);
@@ -51,6 +50,7 @@ public class HeroDetailsActivity extends AppCompatActivity {
         // Set hero intelligence start and gain
         TextView intelligenceText = (TextView) findViewById(R.id.activity_hero_details_int);
         intelligenceText.setText(selectedHero.getIntelligence());
+
         // Set hero attack damage
         TextView attackText = (TextView) findViewById(R.id.activity_hero_details_att);
         attackText.setText(selectedHero.getDamage());
