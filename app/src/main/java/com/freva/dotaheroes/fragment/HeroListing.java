@@ -1,6 +1,5 @@
 package com.freva.dotaheroes.fragment;
 
-import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.text.Editable;
@@ -11,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.freva.dotaheroes.MainActivity;
 import com.freva.dotaheroes.R;
 import com.freva.dotaheroes.adapter.HeroListingAdapter;
 import com.freva.dotaheroes.container.Hero;
@@ -27,6 +27,7 @@ public class HeroListing extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         View rootView = inflater.inflate(R.layout.fragment_hero_listing, container, false);
+        MainActivity.setIconTitle(R.drawable.icon_dota_logo, "Dota Heroes");
 
         List<Hero> heroes = Heroes.getHeroes();
         Collections.sort(heroes, (o1, o2) -> o1.getName().compareTo(o2.getName()));
