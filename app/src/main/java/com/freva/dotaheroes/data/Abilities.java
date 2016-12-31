@@ -2,6 +2,7 @@ package com.freva.dotaheroes.data;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.freva.dotaheroes.MainActivity;
+import com.freva.dotaheroes.fragment.HeroListing;
 import com.freva.dotaheroes.R;
 import com.freva.dotaheroes.container.Ability;
 

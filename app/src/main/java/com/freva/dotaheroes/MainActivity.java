@@ -1,25 +1,21 @@
 package com.freva.dotaheroes;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
+import android.media.ThumbnailUtils;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.EditText;
-import android.widget.ListView;
+import android.support.v4.app.Fragment;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
-import com.freva.dotaheroes.R;
-import com.freva.dotaheroes.adapter.HeroListingAdapter;
-import com.freva.dotaheroes.container.Hero;
-
-import com.freva.dotaheroes.data.Heroes;
-
-import java.util.Collections;
-import java.util.List;
+import com.freva.dotaheroes.fragment.HeroListing;
 
 public class MainActivity extends AppCompatActivity {
     private static MainActivity mainActivity;
-    private HeroListingAdapter heroListingAdapter;
+    private static Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,37 +23,30 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        List<Hero> heroes = Heroes.getHeroes();
-        Collections.sort(heroes, (o1, o2) -> o1.getName().compareTo(o2.getName()));
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        heroListingAdapter = new HeroListingAdapter(getApplicationContext(), heroes);
-        ListView listview = (ListView) findViewById(R.id.heroes_list_view);
-        listview.setAdapter(heroListingAdapter);
-        listview.setOnItemClickListener((parent, view, position, id) -> {
-            Hero selectedHero = ((Hero) parent.getItemAtPosition(position));
-            Intent myIntent = new Intent(view.getContext(), HeroDetailsActivity.class);
-            myIntent.putExtra("HERO_ID", selectedHero.getId());
-            startActivityForResult(myIntent, 0);
-        });
-
-        EditText heroSearch = (EditText) findViewById(R.id.activity_main_hero_search_input);
-        heroSearch.addTextChangedListener(new FilterHeroListener());
-    }
-
-    private class FilterHeroListener implements TextWatcher {
-        @Override
-        public void onTextChanged(CharSequence s, int start, int before, int count) {
-            heroListingAdapter.getFilter().filter(s);
-        }
-
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
-
-        @Override
-        public void afterTextChanged(Editable s) { }
+        Fragment fragment = new HeroListing();
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.activity_main_frame_container, fragment)
+                .commit();
     }
 
     public static MainActivity getMainActivity() {
         return mainActivity;
+    }
+
+    public static void setIconTitle(int iconResourceId, String title) {
+        Bitmap sourceBitmap = BitmapFactory.decodeResource(getMainActivity().getResources(), iconResourceId);
+        Drawable drawable = createCircleBitmap(sourceBitmap);
+        toolbar.setNavigationIcon(drawable);
+        toolbar.setTitle(title);
+    }
+
+    public static Drawable createCircleBitmap(Bitmap bmp) {
+        bmp = ThumbnailUtils.extractThumbnail(bmp, bmp.getWidth() / 4, bmp.getHeight() / 4, ThumbnailUtils.OPTIONS_RECYCLE_INPUT);
+        RoundedBitmapDrawable roundedBitmap = RoundedBitmapDrawableFactory.create(getMainActivity().getResources(), bmp);
+        roundedBitmap.setCornerRadius(Math.max(bmp.getWidth(), bmp.getHeight()) / 2.0f);
+        return roundedBitmap.getCurrent();
     }
 }
