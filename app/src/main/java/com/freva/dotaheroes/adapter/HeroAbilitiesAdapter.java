@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 public class HeroAbilitiesAdapter extends ArrayAdapter<Ability> {
+    private static final String mapFormat = "<b>%s:</b> %s<br/>";
     private List<Ability> originalAbilityList;
 
     public HeroAbilitiesAdapter(Context context, List<Ability> abilityList) {
@@ -35,7 +36,7 @@ public class HeroAbilitiesAdapter extends ArrayAdapter<Ability> {
 
         if (convertView == null) {
             LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = inflater.inflate(R.layout.fragment_hero_abilites_item, parent, false);
+            convertView = inflater.inflate(R.layout.fragment_hero_details_abilites_item, parent, false);
 
             viewHolder = new ViewHolder();
             viewHolder.name = (TextView) convertView.findViewById(R.id.fragment_hero_details_ability_name);
@@ -54,48 +55,28 @@ public class HeroAbilitiesAdapter extends ArrayAdapter<Ability> {
         viewHolder.name.setText(ability.getName());
         viewHolder.icon.setImageResource(ability.getIconResourceIdentifier());
 
-        // If the keys exist, sort in the following order:
-        // ABILITY, DAMAGE TYPE, PIERCES SPELL IMMUNITY
-        List<String> keys = new ArrayList(ability.getAffects().keySet());
+        List<String> keys = new ArrayList<>(ability.getAffects().keySet());
         Collections.sort(keys);
         StringBuilder sbAffects = new StringBuilder();
         for (String key: keys) {
-            if (key != null) {
-                sbAffects.append(key).append(": ").append(ability.getAffects().get(key)).append("\n");
-            }
+            String htmlDetails = String.format(mapFormat, key, ability.getAffects().get(key));
+            sbAffects.append(htmlDetails);
         }
-        viewHolder.affects.setText(sbAffects.toString());
-
+        viewHolder.affects.setText(Html.fromHtml(sbAffects.toString()));
         viewHolder.desc.setText(ability.getDescription());
 
-        StringBuilder sbMana = new StringBuilder();
-        sbMana.append("<b>MANA COST:</b> ");
-        if (ability.getMana() == null) {
-            viewHolder.mana.setText(Html.fromHtml(sbMana.append("N/A").toString()));
-        }
-        else {
-            viewHolder.mana.setText(Html.fromHtml(sbMana.append(ability.getMana()).toString()));
-        }
+        String manaText = ability.getMana() != null ? ability.getMana() : "N/A";
+        viewHolder.mana.setText(Html.fromHtml("<b>MANA COST:</b> " + manaText));
 
-        StringBuilder sbCooldown = new StringBuilder();
-        sbCooldown.append("<b>COOLDOWN:</b> ");
-        if (ability.getCooldown() == null) {
-            viewHolder.cooldown.setText(Html.fromHtml(sbCooldown.append("N/A").toString()));
-        }
-        else {
-            viewHolder.cooldown.setText(Html.fromHtml(sbCooldown.append(ability.getCooldown()).toString()));
-        }
+        String cooldownText = ability.getCooldown() != null ? ability.getCooldown() : "N/A";
+        viewHolder.cooldown.setText(Html.fromHtml("<b>COOLDOWN:</b> " + cooldownText));
 
-        //String strDetails = "<b>%s:</b> %s\n";
         StringBuilder sbDetails = new StringBuilder();
         for (Map.Entry<String, String> entry : ability.getDetails().entrySet()) {
-            String htmlDetails = String.format("<b>%s:</b> %s<br/>", entry.getKey(), entry.getValue());
+            String htmlDetails = String.format(mapFormat, entry.getKey(), entry.getValue());
             sbDetails.append(htmlDetails);
-
-            //sbDetails.append(entry.getKey()).append(": ").append(entry.getValue()).append("\n");
         }
         viewHolder.details.setText(Html.fromHtml(sbDetails.toString()));
-
 
         return convertView;
     }
