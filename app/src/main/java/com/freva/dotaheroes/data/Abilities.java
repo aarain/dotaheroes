@@ -30,6 +30,7 @@ public class Abilities {
                         iconResourceId,
                         (String) abilityRaw.getValue().get("mana"),
                         (String) abilityRaw.getValue().get("cooldown"),
+                        (String) abilityRaw.getValue().get("description"),
                         (Map<String, String>) abilityRaw.getValue().get("affects"),
                         (Map<String, String>) abilityRaw.getValue().get("details"));
 

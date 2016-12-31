@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/fragment_hero_details_ability_name"
+        android:layout_width="fill_parent"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/fragment_hero_details_ability_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/fragment_hero_details_ability_affects"
+                android:layout_width="fill_parent"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_hero_details_ability_description"
+        android:layout_width="fill_parent"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/fragment_hero_details_ability_mana"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fragment_hero_details_ability_cooldown"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_hero_details_ability_details"
+        android:layout_width="fill_parent"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:padding="4dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
