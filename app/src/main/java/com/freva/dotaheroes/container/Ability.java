@@ -38,22 +38,18 @@ public class Ability {
     }
 
     public String getMana() {
-
         return mana;
     }
 
     public String getCooldown() {
-
         return cooldown;
     }
 
     public Map<String, String> getAffects() {
-
         return new HashMap<>(affects);
     }
 
     public Map<String, String> getDetails() {
-
         return new HashMap<>(details);
     }
 }
