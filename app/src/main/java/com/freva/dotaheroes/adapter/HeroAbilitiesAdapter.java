@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 public class HeroAbilitiesAdapter extends ArrayAdapter<Ability> {
-    private static final String mapFormat = "<b>%s:</b> %s<br/>";
+    private static final String mapFormat = "<b>%s:</b> %s";
     private List<Ability> originalAbilityList;
 
     public HeroAbilitiesAdapter(Context context, List<Ability> abilityList) {
@@ -57,32 +57,40 @@ public class HeroAbilitiesAdapter extends ArrayAdapter<Ability> {
         viewHolder.icon.setImageResource(ability.getIconResourceIdentifier());
 
         String manaText = ability.getMana() != null ? ability.getMana() : "N/A";
-        viewHolder.mana.setText(Html.fromHtml("<b>MANA COST:</b> " + manaText));
+        setHtmlText(viewHolder.mana, formatKeyValue("MANA COST", manaText));
 
         String cooldownText = ability.getCooldown() != null ? ability.getCooldown() : "N/A";
-        viewHolder.cooldown.setText(Html.fromHtml("<b>COOLDOWN:</b> " + cooldownText));
+        setHtmlText(viewHolder.cooldown, formatKeyValue("COOLDOWN", cooldownText));
 
         viewHolder.desc.setText(ability.getDescription());
 
-        StringBuilder affects1 = new StringBuilder();
-        StringBuilder affects2 = new StringBuilder();
-        int i = 0;
-        for (Map.Entry<String, String> entry : ability.getAffects().entrySet()) {
-            String htmlDetails = String.format(mapFormat, entry.getKey(), entry.getValue());
-            ((i % 2) == 0 ? affects1 : affects2).append(htmlDetails).append("\n");
-            i++;
+        List<String> keys = new ArrayList<>(ability.getAffects().keySet());
+        Collections.sort(keys);
+        StringBuilder[] sbAffects = {new StringBuilder(), new StringBuilder()};
+        for (int i = 0; i < keys.size(); i++) {
+            String key = keys.get(i);
+            String value = ability.getAffects().get(key);
+
+            sbAffects[i % 2].append(formatKeyValue(key, value)).append("<br>");
         }
-        viewHolder.affects_1.setText(Html.fromHtml(affects1.toString()));
-        viewHolder.affects_2.setText(Html.fromHtml(affects2.toString()));
+        setHtmlText(viewHolder.affects_1, sbAffects[0].toString());
+        setHtmlText(viewHolder.affects_2, sbAffects[1].toString());
 
         StringBuilder sbDetails = new StringBuilder();
         for (Map.Entry<String, String> entry : ability.getDetails().entrySet()) {
-            String htmlDetails = String.format(mapFormat, entry.getKey(), entry.getValue());
-            sbDetails.append(htmlDetails);
+            sbDetails.append(formatKeyValue(entry.getKey(), entry.getValue())).append("<br>");
         }
-        viewHolder.details.setText(Html.fromHtml(sbDetails.toString()));
+        setHtmlText(viewHolder.details, sbDetails.toString());
 
         return convertView;
+    }
+
+    private void setHtmlText(TextView textView, String html) {
+        textView.setText(Html.fromHtml(html));
+    }
+
+    private String formatKeyValue(String key, String value) {
+        return String.format(mapFormat, key, value);
     }
 
     @Override
