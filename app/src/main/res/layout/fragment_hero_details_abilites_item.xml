@@ -31,11 +31,24 @@
             android:padding="4dp">
 
             <TextView
-                android:id="@+id/fragment_hero_details_ability_affects"
+                android:id="@+id/fragment_hero_details_ability_mana"
                 android:layout_width="fill_parent"
-                android:textSize="16sp"
+                android:textSize="12sp"
                 android:textColor="#000"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:drawablePadding="2dp"
+                android:drawableLeft="@drawable/mana" />
+
+            <TextView
+                android:id="@+id/fragment_hero_details_ability_cooldown"
+                android:layout_width="fill_parent"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:drawablePadding="2dp"
+                android:drawableLeft="@drawable/cooldown" />
         </LinearLayout>
     </LinearLayout>
 
@@ -54,14 +67,15 @@
         android:padding="4dp">
 
         <TextView
-            android:id="@+id/fragment_hero_details_ability_mana"
+            android:id="@+id/fragment_hero_details_ability_affects_1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:textSize="12sp"
             android:textColor="#000"
             android:layout_height="wrap_content" />
+
         <TextView
-            android:id="@+id/fragment_hero_details_ability_cooldown"
+            android:id="@+id/fragment_hero_details_ability_affects_2"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:textSize="12sp"
