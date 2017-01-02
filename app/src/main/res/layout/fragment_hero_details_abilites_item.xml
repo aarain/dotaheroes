@@ -7,14 +7,15 @@
     <TextView
         android:id="@+id/fragment_hero_details_ability_name"
         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:textSize="32sp"
         android:textColor="#000"
         android:padding="4dp"
-        android:layout_height="wrap_content" />
+        android:text="Hero name" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="4dp">
 
@@ -25,17 +26,32 @@
             android:layout_margin="2dp" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="4dp">
 
             <TextView
-                android:id="@+id/fragment_hero_details_ability_affects"
+                android:id="@+id/fragment_hero_details_ability_mana"
                 android:layout_width="fill_parent"
-                android:textSize="16sp"
+                android:textSize="13.5sp"
                 android:textColor="#000"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:drawablePadding="2dp"
+                android:drawableLeft="@drawable/mana"
+                android:text="MANA COST: 10/20/30/40"/>
+
+            <TextView
+                android:id="@+id/fragment_hero_details_ability_cooldown"
+                android:layout_width="fill_parent"
+                android:textSize="13.5sp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:drawablePadding="2dp"
+                android:drawableLeft="@drawable/cooldown"
+                android:text="COOLDOWN: 1/2/4/8"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -45,26 +61,28 @@
         android:textSize="12sp"
         android:textColor="#000"
         android:padding="4dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Description text"/>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="4dp">
 
         <TextView
-            android:id="@+id/fragment_hero_details_ability_mana"
+            android:id="@+id/fragment_hero_details_ability_affects_1"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:textSize="12sp"
+            android:textSize="11.5sp"
             android:textColor="#000"
             android:layout_height="wrap_content" />
+
         <TextView
-            android:id="@+id/fragment_hero_details_ability_cooldown"
+            android:id="@+id/fragment_hero_details_ability_affects_2"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:textSize="12sp"
+            android:textSize="11.5sp"
             android:textColor="#000"
             android:layout_height="wrap_content" />
     </LinearLayout>
