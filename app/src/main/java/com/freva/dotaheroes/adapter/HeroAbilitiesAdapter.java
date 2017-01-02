@@ -64,26 +64,16 @@ public class HeroAbilitiesAdapter extends ArrayAdapter<Ability> {
 
         viewHolder.desc.setText(ability.getDescription());
 
-        List<String> keys = new ArrayList<>(ability.getAffects().keySet());
-        Collections.sort(keys);
-        StringBuilder sbAffects = new StringBuilder();
-        for (String key: keys) {
-            if (key == "PIERCES SPELL IMMUNITY"){
-                if (ability.getAffects().get(key).equals("Yes")) {
-                    String psi = String.format("<font color=\"green\">%s</font>", key);
-                    viewHolder.affects_2.setText(Html.fromHtml(psi));
-                }
-                else if (ability.getAffects().get(key).equals("No")) {
-                    String psi = String.format("<font color=\"red\"><del>%s</del></font>", key);
-                    viewHolder.affects_2.setText(Html.fromHtml(psi));
-                }
-            }
-            else {
-                String htmlDetails = String.format(mapFormat, key, ability.getAffects().get(key));
-                sbAffects.append(htmlDetails);
-            }
+        StringBuilder affects1 = new StringBuilder();
+        StringBuilder affects2 = new StringBuilder();
+        int i = 0;
+        for (Map.Entry<String, String> entry : ability.getAffects().entrySet()) {
+            String htmlDetails = String.format(mapFormat, entry.getKey(), entry.getValue());
+            ((i % 2) == 0 ? affects1 : affects2).append(htmlDetails).append("\n");
+            i++;
         }
-        viewHolder.affects_1.setText(Html.fromHtml(sbAffects.toString()));
+        viewHolder.affects_1.setText(Html.fromHtml(affects1.toString()));
+        viewHolder.affects_2.setText(Html.fromHtml(affects2.toString()));
 
         StringBuilder sbDetails = new StringBuilder();
         for (Map.Entry<String, String> entry : ability.getDetails().entrySet()) {
