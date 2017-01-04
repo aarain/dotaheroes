@@ -8,11 +8,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Abaddon", 
-        "roles": [
-            "Support", 
-            "Carry", 
-            "Durable"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Durable": 2, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "17 + 1.50", 
             "attack": "32 - 42", 
@@ -32,14 +32,14 @@
         ], 
         "attack_type": "Melee", 
         "name": "Alchemist", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Durable", 
-            "Disabler", 
-            "Initiator", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Initiator": 1, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "11 + 1.20", 
             "attack": "24 - 33", 
@@ -59,11 +59,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Ancient Apparition", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "20 + 2.20", 
             "attack": "19 - 29", 
@@ -82,11 +82,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Anti-Mage", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Escape": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "22 + 2.80", 
             "attack": "27 - 31", 
@@ -105,11 +105,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Arc Warden", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Escape": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "15 + 1.80", 
             "attack": "29 - 39", 
@@ -128,12 +128,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Axe", 
-        "roles": [
-            "Initiator", 
-            "Durable", 
-            "Disabler", 
-            "Jungler"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Durable": 3, 
+            "Initiator": 3, 
+            "Jungler": 2
+        }, 
         "stats": {
             "agi": "20 + 2.20", 
             "attack": "24 - 28", 
@@ -153,12 +153,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Bane", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker", 
-            "Durable"
-        ], 
+        "roles": {
+            "Disabler": 3, 
+            "Durable": 1, 
+            "Nuker": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "22 + 2.10", 
             "attack": "33 - 39", 
@@ -177,12 +177,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Batrider", 
-        "roles": [
-            "Initiator", 
-            "Jungler", 
-            "Disabler", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Initiator": 3, 
+            "Jungler": 2
+        }, 
         "stats": {
             "agi": "15 + 1.50", 
             "attack": "14 - 18", 
@@ -201,12 +201,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Beastmaster", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "18 + 1.60", 
             "attack": "41 - 45", 
@@ -225,13 +225,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Bloodseeker", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Jungler", 
-            "Nuker", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Initiator": 1, 
+            "Jungler": 1, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "24 + 3.00", 
             "attack": "29 - 35", 
@@ -250,10 +250,10 @@
         ], 
         "attack_type": "Melee", 
         "name": "Bounty Hunter", 
-        "roles": [
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Escape": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "21 + 3.00", 
             "attack": "24 - 38", 
@@ -272,13 +272,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Brewmaster", 
-        "roles": [
-            "Carry", 
-            "Initiator", 
-            "Durable", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "22 + 1.95", 
             "attack": "29 - 36", 
@@ -297,12 +297,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Bristleback", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Initiator", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Durable": 3, 
+            "Initiator": 1, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "17 + 1.80", 
             "attack": "26 - 36", 
@@ -321,12 +321,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Broodmother", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Escape": 3, 
+            "Nuker": 1, 
+            "Pusher": 3
+        }, 
         "stats": {
             "agi": "18 + 2.20", 
             "attack": "26 - 32", 
@@ -345,13 +345,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Centaur Warrunner", 
-        "roles": [
-            "Durable", 
-            "Initiator", 
-            "Disabler", 
-            "Nuker", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 3, 
+            "Escape": 1, 
+            "Initiator": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "15 + 1.60", 
             "attack": "32 - 34", 
@@ -370,13 +370,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Chaos Knight", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Durable", 
-            "Pusher", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 1, 
+            "Pusher": 2
+        }, 
         "stats": {
             "agi": "14 + 2.10", 
             "attack": "29 - 59", 
@@ -396,11 +396,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Chen", 
-        "roles": [
-            "Support", 
-            "Jungler", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Jungler": 3, 
+            "Pusher": 2, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "15 + 2.10", 
             "attack": "22 - 32", 
@@ -419,11 +419,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Clinkz", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Escape": 3, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "22 + 3.30", 
             "attack": "15 - 21", 
@@ -442,12 +442,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Clockwerk", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Durable": 1, 
+            "Initiator": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "13 + 2.30", 
             "attack": "31 - 33", 
@@ -466,12 +466,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Crystal Maiden", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker", 
-            "Jungler"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Jungler": 1, 
+            "Nuker": 2, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "16 + 1.60", 
             "attack": "19 - 25", 
@@ -490,12 +490,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Dark Seer", 
-        "roles": [
-            "Initiator", 
-            "Jungler", 
-            "Escape", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Escape": 1, 
+            "Initiator": 1, 
+            "Jungler": 1
+        }, 
         "stats": {
             "agi": "12 + 1.20", 
             "attack": "31 - 37", 
@@ -514,11 +514,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Dazzle", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 1, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "21 + 1.70", 
             "attack": "14 - 32", 
@@ -537,12 +537,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Death Prophet", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Nuker": 1, 
+            "Pusher": 3
+        }, 
         "stats": {
             "agi": "14 + 1.40", 
             "attack": "24 - 36", 
@@ -561,12 +561,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Disruptor", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Initiator": 1, 
+            "Nuker": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "15 + 1.40", 
             "attack": "27 - 31", 
@@ -585,13 +585,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Doom", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Initiator", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "11 + 0.90", 
             "attack": "27 - 43", 
@@ -610,14 +610,14 @@
         ], 
         "attack_type": "Melee", 
         "name": "Dragon Knight", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Durable", 
-            "Disabler", 
-            "Initiator", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 1, 
+            "Nuker": 1, 
+            "Pusher": 3
+        }, 
         "stats": {
             "agi": "19 + 2.20", 
             "attack": "31 - 37", 
@@ -636,11 +636,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Drow Ranger", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "26 + 1.90", 
             "attack": "14 - 25", 
@@ -659,12 +659,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Earthshaker", 
-        "roles": [
-            "Support", 
-            "Initiator", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Initiator": 3, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "12 + 1.40", 
             "attack": "24 - 34", 
@@ -685,13 +685,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Earth Spirit", 
-        "roles": [
-            "Nuker", 
-            "Escape", 
-            "Disabler", 
-            "Initiator", 
-            "Durable"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Escape": 2, 
+            "Initiator": 1, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "17 + 1.50", 
             "attack": "25 - 35", 
@@ -711,12 +711,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Elder Titan", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Nuker", 
-            "Durable"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "14 + 1.50", 
             "attack": "23 - 33", 
@@ -736,13 +736,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Ember Spirit", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Nuker", 
-            "Disabler", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Escape": 3, 
+            "Initiator": 1, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "22 + 1.80", 
             "attack": "30 - 34", 
@@ -761,13 +761,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Enchantress", 
-        "roles": [
-            "Support", 
-            "Jungler", 
-            "Pusher", 
-            "Durable", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Jungler": 3, 
+            "Pusher": 2, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "19 + 1.80", 
             "attack": "31 - 41", 
@@ -786,12 +786,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Enigma", 
-        "roles": [
-            "Disabler", 
-            "Jungler", 
-            "Initiator", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Initiator": 2, 
+            "Jungler": 3, 
+            "Pusher": 2
+        }, 
         "stats": {
             "agi": "14 + 1.00", 
             "attack": "22 - 28", 
@@ -810,13 +810,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Faceless Void", 
-        "roles": [
-            "Carry", 
-            "Initiator", 
-            "Disabler", 
-            "Escape", 
-            "Durable"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 2, 
+            "Durable": 1, 
+            "Escape": 1, 
+            "Initiator": 3
+        }, 
         "stats": {
             "agi": "23 + 2.65", 
             "attack": "33 - 39", 
@@ -835,11 +835,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Gyrocopter", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 1, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "24 + 2.80", 
             "attack": "13 - 23", 
@@ -858,11 +858,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Huskar", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Durable": 2, 
+            "Initiator": 1
+        }, 
         "stats": {
             "agi": "15 + 1.40", 
             "attack": "21 - 30", 
@@ -891,13 +891,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Invoker", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Disabler", 
-            "Escape", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Nuker": 3, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "14 + 1.90", 
             "attack": "19 - 25", 
@@ -919,11 +919,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Io", 
-        "roles": [
-            "Support", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Escape": 2, 
+            "Nuker": 1, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "14 + 1.60", 
             "attack": "26 - 35", 
@@ -942,12 +942,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Jakiro", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Pusher", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 2, 
+            "Pusher": 2, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "10 + 1.20", 
             "attack": "25 - 33", 
@@ -966,11 +966,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Juggernaut", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Escape": 1, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "26 + 2.40", 
             "attack": "22 - 26", 
@@ -993,12 +993,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Keeper of the Light", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler", 
-            "Jungler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Jungler": 1, 
+            "Nuker": 2, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "15 + 1.60", 
             "attack": "18 - 32", 
@@ -1018,13 +1018,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Kunkka", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Initiator", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Initiator": 1, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "14 + 1.30", 
             "attack": "26 - 36", 
@@ -1043,13 +1043,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Legion Commander", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Initiator", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Durable": 1, 
+            "Initiator": 1, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "18 + 1.70", 
             "attack": "35 - 39", 
@@ -1068,13 +1068,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Leshrac", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Nuker", 
-            "Pusher", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Nuker": 3, 
+            "Pusher": 3, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "23 + 1.70", 
             "attack": "15 - 19", 
@@ -1093,10 +1093,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Lich", 
-        "roles": [
-            "Support", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Nuker": 2, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "15 + 2.00", 
             "attack": "24 - 33", 
@@ -1119,13 +1119,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Lifestealer", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Jungler", 
-            "Escape", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Escape": 1, 
+            "Jungler": 1
+        }, 
         "stats": {
             "agi": "18 + 1.90", 
             "attack": "32 - 42", 
@@ -1144,12 +1144,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Lina", 
-        "roles": [
-            "Support", 
-            "Carry", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Nuker": 3, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "16 + 1.50", 
             "attack": "13 - 31", 
@@ -1168,12 +1168,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Lion", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Disabler": 3, 
+            "Initiator": 2, 
+            "Nuker": 3, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "15 + 1.50", 
             "attack": "27 - 33", 
@@ -1194,12 +1194,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Lone Druid", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Jungler", 
-            "Durable"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Durable": 1, 
+            "Jungler": 1, 
+            "Pusher": 3
+        }, 
         "stats": {
             "agi": "24 + 2.70", 
             "attack": "22 - 26", 
@@ -1218,11 +1218,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Luna", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Nuker": 2, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "18 + 3.30", 
             "attack": "26 - 32", 
@@ -1241,13 +1241,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Lycan", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Jungler", 
-            "Durable", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Durable": 1, 
+            "Escape": 1, 
+            "Jungler": 1, 
+            "Pusher": 3
+        }, 
         "stats": {
             "agi": "16 + 1.50", 
             "attack": "36 - 41", 
@@ -1266,12 +1266,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Magnus", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Nuker", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Initiator": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "15 + 2.50", 
             "attack": "32 - 44", 
@@ -1290,11 +1290,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Medusa", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Durable"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 1, 
+            "Durable": 1
+        }, 
         "stats": {
             "agi": "20 + 2.50", 
             "attack": "24 - 30", 
@@ -1313,14 +1313,14 @@
         ], 
         "attack_type": "Melee", 
         "name": "Meepo", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Nuker", 
-            "Disabler", 
-            "Initiator", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Escape": 2, 
+            "Initiator": 1, 
+            "Nuker": 2, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "23 + 2.20", 
             "attack": "20 - 26", 
@@ -1339,13 +1339,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Mirana", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Escape", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Escape": 2, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "20 + 3.30", 
             "attack": "18 - 29", 
@@ -1367,12 +1367,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Monkey King", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Disabler", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Escape": 2, 
+            "Disabler": 1, 
+            "Initiator": 1
+        }, 
         "stats": {
             "agi": "22 + 3.20", 
             "attack": "30 - 36", 
@@ -1394,13 +1394,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Morphling", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Durable", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Escape": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "24 + 3.70", 
             "attack": "9 - 18", 
@@ -1420,14 +1420,14 @@
         ], 
         "attack_type": "Melee", 
         "name": "Naga Siren", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Pusher", 
-            "Disabler", 
-            "Initiator", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Initiator": 1, 
+            "Pusher": 2, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "21 + 2.75", 
             "attack": "23 - 25", 
@@ -1446,13 +1446,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Nature's Prophet", 
-        "roles": [
-            "Carry", 
-            "Jungler", 
-            "Pusher", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Escape": 1, 
+            "Jungler": 3, 
+            "Nuker": 1, 
+            "Pusher": 3
+        }, 
         "stats": {
             "agi": "18 + 1.90", 
             "attack": "24 - 38", 
@@ -1471,12 +1471,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Necrophos", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Durable", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "15 + 1.70", 
             "attack": "22 - 26", 
@@ -1495,13 +1495,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Night Stalker", 
-        "roles": [
-            "Carry", 
-            "Initiator", 
-            "Durable", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "18 + 2.25", 
             "attack": "38 - 42", 
@@ -1522,12 +1522,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Nyx Assassin", 
-        "roles": [
-            "Disabler", 
-            "Nuker", 
-            "Initiator", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Initiator": 2, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "19 + 2.20", 
             "attack": "30 - 34", 
@@ -1547,13 +1547,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Ogre Magi", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler", 
-            "Durable", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Durable": 1, 
+            "Initiator": 1, 
+            "Nuker": 2, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "14 + 1.55", 
             "attack": "41 - 47", 
@@ -1572,11 +1572,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Omniknight", 
-        "roles": [
-            "Support", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Durable": 1, 
+            "Nuker": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "15 + 1.75", 
             "attack": "31 - 41", 
@@ -1595,12 +1595,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Oracle", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Nuker": 3, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "15 + 1.70", 
             "attack": "16 - 22", 
@@ -1619,11 +1619,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Outworld Devourer", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "24 + 2.00", 
             "attack": "14 - 29", 
@@ -1642,10 +1642,10 @@
         ], 
         "attack_type": "Melee", 
         "name": "Phantom Assassin", 
-        "roles": [
-            "Carry", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Escape": 1
+        }, 
         "stats": {
             "agi": "23 + 3.15", 
             "attack": "23 - 25", 
@@ -1664,12 +1664,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Phantom Lancer", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Pusher", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Escape": 2, 
+            "Nuker": 1, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "29 + 2.60", 
             "attack": "22 - 44", 
@@ -1692,13 +1692,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Phoenix", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Initiator", 
-            "Escape", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Escape": 2, 
+            "Initiator": 2, 
+            "Nuker": 3, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "12 + 1.30", 
             "attack": "26 - 36", 
@@ -1718,12 +1718,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Puck", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 3, 
+            "Escape": 3, 
+            "Initiator": 3, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "22 + 1.70", 
             "attack": "22 - 33", 
@@ -1742,12 +1742,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Pudge", 
-        "roles": [
-            "Disabler", 
-            "Initiator", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "14 + 1.50", 
             "attack": "27 - 33", 
@@ -1766,10 +1766,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Pugna", 
-        "roles": [
-            "Nuker", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Nuker": 2, 
+            "Pusher": 2
+        }, 
         "stats": {
             "agi": "16 + 1.00", 
             "attack": "19 - 27", 
@@ -1788,11 +1788,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Queen of Pain", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Escape": 3, 
+            "Nuker": 3
+        }, 
         "stats": {
             "agi": "18 + 2.00", 
             "attack": "25 - 33", 
@@ -1811,12 +1811,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Razor", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Nuker", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Durable": 2, 
+            "Nuker": 1, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "22 + 2.00", 
             "attack": "23 - 25", 
@@ -1835,11 +1835,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Riki", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Escape": 2
+        }, 
         "stats": {
             "agi": "34 + 2.20", 
             "attack": "4 - 8", 
@@ -1859,11 +1859,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Rubick", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "14 + 1.60", 
             "attack": "17 - 27", 
@@ -1882,13 +1882,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Sand King", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Nuker", 
-            "Escape", 
-            "Jungler"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Escape": 2, 
+            "Initiator": 3, 
+            "Jungler": 1, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "19 + 2.10", 
             "attack": "25 - 41", 
@@ -1908,12 +1908,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Shadow Demon", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Initiator", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Initiator": 1, 
+            "Nuker": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "18 + 2.20", 
             "attack": "27 - 31", 
@@ -1932,10 +1932,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Shadow Fiend", 
-        "roles": [
-            "Carry", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Nuker": 3
+        }, 
         "stats": {
             "agi": "20 + 2.90", 
             "attack": "15 - 21", 
@@ -1954,13 +1954,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Shadow Shaman", 
-        "roles": [
-            "Support", 
-            "Pusher", 
-            "Disabler", 
-            "Nuker", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Disabler": 3, 
+            "Initiator": 1, 
+            "Nuker": 2, 
+            "Pusher": 3, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "16 + 1.60", 
             "attack": "26 - 33", 
@@ -1979,13 +1979,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Silencer", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Disabler", 
-            "Initiator", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Initiator": 2, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "22 + 3.00", 
             "attack": "16 - 30", 
@@ -2004,11 +2004,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Skywrath Mage", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 3, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "13 + 0.80", 
             "attack": "12 - 22", 
@@ -2027,13 +2027,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Slardar", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Initiator", 
-            "Disabler", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Escape": 1, 
+            "Initiator": 2
+        }, 
         "stats": {
             "agi": "17 + 2.40", 
             "attack": "30 - 38", 
@@ -2052,12 +2052,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Slark", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Escape": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "21 + 1.50", 
             "attack": "33 - 41", 
@@ -2076,10 +2076,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Sniper", 
-        "roles": [
-            "Carry", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "21 + 2.50", 
             "attack": "15 - 21", 
@@ -2099,11 +2099,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Spectre", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Durable": 1, 
+            "Escape": 1
+        }, 
         "stats": {
             "agi": "23 + 1.80", 
             "attack": "23 - 27", 
@@ -2122,13 +2122,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Spirit Breaker", 
-        "roles": [
-            "Carry", 
-            "Initiator", 
-            "Disabler", 
-            "Durable", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Escape": 1, 
+            "Initiator": 2
+        }, 
         "stats": {
             "agi": "17 + 1.70", 
             "attack": "31 - 41", 
@@ -2147,13 +2147,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Storm Spirit", 
-        "roles": [
-            "Carry", 
-            "Escape", 
-            "Nuker", 
-            "Initiator", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Escape": 3, 
+            "Initiator": 1, 
+            "Nuker": 2
+        }, 
         "stats": {
             "agi": "22 + 1.80", 
             "attack": "22 - 32", 
@@ -2172,13 +2172,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Sven", 
-        "roles": [
-            "Carry", 
-            "Disabler", 
-            "Initiator", 
-            "Durable", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 2, 
+            "Durable": 2, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "21 + 2.00", 
             "attack": "41 - 43", 
@@ -2199,10 +2199,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Techies", 
-        "roles": [
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 3
+        }, 
         "stats": {
             "agi": "14 + 1.30", 
             "attack": "7 - 9", 
@@ -2222,10 +2222,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Templar Assassin", 
-        "roles": [
-            "Carry", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Escape": 1
+        }, 
         "stats": {
             "agi": "23 + 2.70", 
             "attack": "30 - 36", 
@@ -2244,11 +2244,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Terrorblade", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Nuker": 1, 
+            "Pusher": 2
+        }, 
         "stats": {
             "agi": "22 + 3.20", 
             "attack": "26 - 32", 
@@ -2267,12 +2267,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Tidehunter", 
-        "roles": [
-            "Initiator", 
-            "Durable", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Durable": 3, 
+            "Initiator": 3, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "15 + 1.50", 
             "attack": "25 - 31", 
@@ -2294,11 +2294,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Timbersaw", 
-        "roles": [
-            "Nuker", 
-            "Durable", 
-            "Escape"
-        ], 
+        "roles": {
+            "Durable": 2, 
+            "Escape": 2, 
+            "Nuker": 3
+        }, 
         "stats": {
             "agi": "16 + 1.30", 
             "attack": "26 - 30", 
@@ -2317,11 +2317,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Tinker", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Nuker": 3, 
+            "Pusher": 2
+        }, 
         "stats": {
             "agi": "13 + 1.20", 
             "attack": "22 - 28", 
@@ -2340,14 +2340,14 @@
         ], 
         "attack_type": "Melee", 
         "name": "Tiny", 
-        "roles": [
-            "Carry", 
-            "Nuker", 
-            "Pusher", 
-            "Initiator", 
-            "Durable", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Initiator": 2, 
+            "Nuker": 2, 
+            "Pusher": 2
+        }, 
         "stats": {
             "agi": "9 + 0.90", 
             "attack": "37 - 43", 
@@ -2367,13 +2367,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Treant Protector", 
-        "roles": [
-            "Support", 
-            "Initiator", 
-            "Durable", 
-            "Disabler", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Escape": 1, 
+            "Initiator": 2, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "15 + 2.00", 
             "attack": "62 - 70", 
@@ -2393,12 +2393,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Troll Warlord", 
-        "roles": [
-            "Carry", 
-            "Pusher", 
-            "Disabler", 
-            "Durable"
-        ], 
+        "roles": {
+            "Carry": 3, 
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Pusher": 1
+        }, 
         "stats": {
             "agi": "21 + 2.75", 
             "attack": "17 - 35", 
@@ -2419,11 +2419,11 @@
         ], 
         "attack_type": "Melee", 
         "name": "Tusk", 
-        "roles": [
-            "Initiator", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Initiator": 2, 
+            "Nuker": 1
+        }, 
         "stats": {
             "agi": "23 + 2.10", 
             "attack": "27 - 31", 
@@ -2443,13 +2443,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Underlord", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler", 
-            "Durable", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Escape": 2, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "12 + 1.30", 
             "attack": "37 - 43", 
@@ -2468,12 +2468,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Undying", 
-        "roles": [
-            "Support", 
-            "Durable", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "10 + 0.80", 
             "attack": "35 - 43", 
@@ -2492,12 +2492,12 @@
         ], 
         "attack_type": "Melee", 
         "name": "Ursa", 
-        "roles": [
-            "Carry", 
-            "Jungler", 
-            "Durable", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Jungler": 1
+        }, 
         "stats": {
             "agi": "18 + 2.10", 
             "attack": "27 - 31", 
@@ -2516,13 +2516,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Vengeful Spirit", 
-        "roles": [
-            "Support", 
-            "Initiator", 
-            "Disabler", 
-            "Nuker", 
-            "Escape"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Escape": 1, 
+            "Initiator": 2, 
+            "Nuker": 1, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "27 + 3.30", 
             "attack": "12 - 26", 
@@ -2541,13 +2541,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Venomancer", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Initiator", 
-            "Pusher", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Initiator": 1, 
+            "Nuker": 1, 
+            "Pusher": 1, 
+            "Support": 2
+        }, 
         "stats": {
             "agi": "22 + 2.60", 
             "attack": "19 - 21", 
@@ -2566,12 +2566,12 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Viper", 
-        "roles": [
-            "Carry", 
-            "Durable", 
-            "Initiator", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Durable": 2, 
+            "Initiator": 1
+        }, 
         "stats": {
             "agi": "21 + 2.90", 
             "attack": "23 - 25", 
@@ -2590,13 +2590,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Visage", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Durable", 
-            "Disabler", 
-            "Pusher"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Durable": 1, 
+            "Nuker": 2, 
+            "Pusher": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "11 + 1.30", 
             "attack": "21 - 31", 
@@ -2615,11 +2615,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Warlock", 
-        "roles": [
-            "Support", 
-            "Initiator", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Initiator": 2, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "10 + 1.00", 
             "attack": "22 - 32", 
@@ -2638,10 +2638,10 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Weaver", 
-        "roles": [
-            "Carry", 
-            "Escape"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Escape": 3
+        }, 
         "stats": {
             "agi": "14 + 2.80", 
             "attack": "41 - 51", 
@@ -2660,13 +2660,13 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Windranger", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Disabler", 
-            "Escape", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Carry": 1, 
+            "Disabler": 1, 
+            "Escape": 1, 
+            "Nuker": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "17 + 1.40", 
             "attack": "22 - 34", 
@@ -2685,11 +2685,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Winter Wyvern", 
-        "roles": [
-            "Support", 
-            "Disabler", 
-            "Nuker"
-        ], 
+        "roles": {
+            "Disabler": 2, 
+            "Nuker": 1, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "16 + 1.90", 
             "attack": "13 - 20", 
@@ -2708,11 +2708,11 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Witch Doctor", 
-        "roles": [
-            "Support", 
-            "Nuker", 
-            "Disabler"
-        ], 
+        "roles": {
+            "Disabler": 1, 
+            "Nuker": 2, 
+            "Support": 3
+        }, 
         "stats": {
             "agi": "13 + 1.40", 
             "attack": "27 - 37", 
@@ -2731,13 +2731,13 @@
         ], 
         "attack_type": "Melee", 
         "name": "Wraith King", 
-        "roles": [
-            "Carry", 
-            "Support", 
-            "Durable", 
-            "Disabler", 
-            "Initiator"
-        ], 
+        "roles": {
+            "Carry": 2, 
+            "Disabler": 2, 
+            "Durable": 3, 
+            "Initiator": 1, 
+            "Support": 1
+        }, 
         "stats": {
             "agi": "18 + 1.70", 
             "attack": "39 - 41", 
@@ -2757,9 +2757,9 @@
         ], 
         "attack_type": "Ranged", 
         "name": "Zeus", 
-        "roles": [
-            "Nuker"
-        ], 
+        "roles": {
+            "Nuker": 3
+        }, 
         "stats": {
             "agi": "11 + 1.20", 
             "attack": "21 - 29", 

@@ -33,7 +33,7 @@ public class HeroDetailsStats extends Fragment {
 
         // Set hero roles
         List<String> roles = new ArrayList<>();
-        for (Hero.Role role : selectedHero.getRoles()) {
+        for (Hero.Role role : selectedHero.getRoles().keySet()) {
             roles.add(role.toString());
         }
 
