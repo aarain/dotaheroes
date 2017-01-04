@@ -29,7 +29,7 @@ public class Heroes {
                 Hero hero = new Hero(heroRaw.getKey(), (String) heroRaw.getValue().get("name"),
                         iconResourceId,
                         (String) heroRaw.getValue().get("attack_type"),
-                        (List<String>) heroRaw.getValue().get("roles"),
+                        (Map<String, Integer>) heroRaw.getValue().get("roles"),
                         (List<String>) heroRaw.getValue().get("abilities"),
                         (Map<String, String>) heroRaw.getValue().get("stats"));
 

@@ -3,22 +3,21 @@ package com.freva.dotaheroes.container;
 import com.freva.dotaheroes.data.Abilities;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class Hero {
     private final String id, name;
     private final int iconResourceIdentifier;
     private final AttackType attackType;
-    private final Set<Role> roles = new HashSet<>();
+    private final Map<Role, Integer> roles = new HashMap<>();
     private final List<Ability> abilities = new ArrayList<>();
     private final String agility, intelligence, strength;
     private final String damage, armor, speed;
 
     public Hero(String id, String name, int iconResourceIdentifier, String attackType,
-                List<String> roles, List<String> abilities, Map<String, String> stats) {
+                Map<String, Integer> roles, List<String> abilities, Map<String, String> stats) {
         this.id = id;
         this.name = name;
         this.iconResourceIdentifier = iconResourceIdentifier;
@@ -30,7 +29,7 @@ public class Hero {
         this.armor = stats.get("defense");
         this.speed = stats.get("speed");
 
-        for (String role : roles) this.roles.add(Role.valueOf(role.toUpperCase()));
+        for (String role : roles.keySet()) this.roles.put(Role.valueOf(role.toUpperCase()), roles.get(role));
         for (String ability : abilities) this.abilities.add(Abilities.getAbility(ability));
     }
 
@@ -50,12 +49,12 @@ public class Hero {
         return attackType;
     }
 
-    public Set<Role> getRoles() {
-        return roles;
+    public Map<Role, Integer> getRoles() {
+        return new HashMap<>(roles);
     }
 
     public List<Ability> getAbilities() {
-        return abilities;
+        return new ArrayList<>(abilities);
     }
 
     public String getAgility() {
